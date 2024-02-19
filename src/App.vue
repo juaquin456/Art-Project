@@ -48,11 +48,13 @@ function changeBackground(region: string) {
   justify-content: center; 
   flex-direction: column;
 }
+
 p {
   text-align: center;
   font-size: 1.5em;
   color: white;
   margin-bottom: 50px;
+  font-family: "Sansita Swashed", system-ui;
 }
 .title {
   font-size: 10em;
