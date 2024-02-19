@@ -23,14 +23,28 @@ function loaded() {
         const centerY = bbox.y + bbox.height / 2;
 
         var text = document.createElementNS("http://www.w3.org/2000/svg", "text");
-        text.setAttribute("x", String(centerX));
-        text.setAttribute("y", String(centerY));
+        text.textContent = region.getAttribute("title") || "";
+        if (text.textContent === "Ucayali") {
+          text.setAttribute("x", String(centerX - 24));
+        }
+        else if (text.textContent === "Loreto") {
+          text.setAttribute("x", String(centerX - 24));
+        }
+        else {
+          text.setAttribute("x", String(centerX));
+        }
+
+        if (text.textContent === "Madre de Dios") {
+          text.setAttribute("y", String(centerY + 10));
+        }
+        else {
+          text.setAttribute("y", String(centerY));
+        }
         text.setAttribute("text-anchor", "middle");
         text.setAttribute("dominant-baseline", "middle");
         text.setAttribute("fill", "white");
         text.setAttribute("font-size", "14");
-        text.textContent = region.getAttribute("title") || "";
-
+        
         svg.value?.appendChild(text);
     });
 }

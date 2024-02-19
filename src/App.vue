@@ -6,10 +6,10 @@ const regionBackground = ref<string>('https://www.peru.travel/contenido/destino/
 
 const regionsBackground: {[key: string]: string} = {
   "Loreto": 'https://www.peru.travel/contenido/destino/imagen/es/9/1.2/principal/loreto.jpg',
-  "Ucayali": 'https://www.peru.travel/contenido/destino/imagen/es/9/1.2/principal/ucayali.jpg',
-  "San Martín": 'https://www.peru.travel/contenido/destino/imagen/es/9/1.2/principal/san-martin.jpg',
+  "Ucayali": 'https://portal.andina.pe/EDPfotografia3/Thumbnail/2020/10/16/000718929W.jpg',
+  "San Martín": 'https://www.peru.travel/Contenido/Evento/Imagen/es/443/1.1/Evento/San%20Mart%C3%ADn%20Portada.jpg',
   "Amazonas": 'https://ultimatejourneys.pe/wp-content/uploads/2016/03/Fotos-pintura-amazonica-1-1500x750.jpg',
-  "Madre de Dios": 'https://www.peru.travel/contenido/destino/imagen/es/9/1.2/principal/madre-de-dios.jpg',
+  "Madre de Dios": 'https://www.peru.travel/contenido/destino/imagen/es/10/1.1/principal/tambopata.jpg',
 }
 
 function changeBackground(region: string) {
@@ -40,6 +40,8 @@ function changeBackground(region: string) {
 
 <style scoped>
 .container {
+  background: -webkit-linear-gradient(to right, #a7d5f2, #3E5902, #D2D904);
+  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c), url("./assets/bg.jpg") center/cover no-repeat;
   height: 100vh; 
   display: flex; 
   align-items: center; 
@@ -49,7 +51,7 @@ function changeBackground(region: string) {
 p {
   text-align: center;
   font-size: 1.5em;
-  color: #333;
+  color: white;
   margin-bottom: 50px;
 }
 .title {
@@ -57,9 +59,10 @@ p {
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
-  color: black;
+  color: white;
   will-change: color;
   transition: color 300ms;
+  font-family: "Uncial Antiqua";
 }
 
 .demo-bg {
@@ -69,7 +72,6 @@ p {
   top: 0;
   width: auto;
   min-height: 100vh;
-  filter: blur(5px);
 }
 
 .demo-wrap {
