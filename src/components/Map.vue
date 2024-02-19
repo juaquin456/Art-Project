@@ -27,7 +27,7 @@ function loaded() {
         text.setAttribute("y", String(centerY));
         text.setAttribute("text-anchor", "middle");
         text.setAttribute("dominant-baseline", "middle");
-        text.setAttribute("fill", "black");
+        text.setAttribute("fill", "white");
         text.setAttribute("font-size", "14");
         text.textContent = region.getAttribute("title") || "";
 
@@ -50,15 +50,14 @@ onMounted(() => {
 </template>
 <style scoped>
 path {
-  fill: #5fbb5c;
-  stroke: #000000;
+  fill: #4B732F;
+  stroke: #C2E0F2;
   stroke-width: 0.5;
 }
 
 path:hover {
-  stroke: #666;
   stroke-width: 2;
-  filter: brightness(1.2);
+  fill: #77A612;
 }
 
 </style>

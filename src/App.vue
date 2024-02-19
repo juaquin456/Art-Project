@@ -69,6 +69,7 @@ p {
   top: 0;
   width: auto;
   min-height: 100vh;
+  filter: blur(5px);
 }
 
 .demo-wrap {
