@@ -42,7 +42,7 @@ function loaded() {
         }
         text.setAttribute("text-anchor", "middle");
         text.setAttribute("dominant-baseline", "middle");
-        text.setAttribute("fill", "white");
+        text.setAttribute("fill", "#172601");
         text.setAttribute("font-size", "14");
         
         svg.value?.appendChild(text);
@@ -64,14 +64,15 @@ onMounted(() => {
 </template>
 <style scoped>
 path {
-  fill: #4B732F;
-  stroke: #C2E0F2;
+  fill: #6E8C03;
+  stroke: #172601;
   stroke-width: 0.5;
 }
 
 path:hover {
   stroke-width: 2;
-  fill: #77A612;
+  fill: #D2D904;
+  cursor: pointer;
 }
 
 </style>
