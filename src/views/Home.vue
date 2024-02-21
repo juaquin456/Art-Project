@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Map from '../components/Map.vue'
+import Map from '@/components/Map.vue'
 import {ref} from 'vue'
 
-import loretoUrl from '../assets/loreto.jpg'
-import ucayaliUrl from '../assets/ucayali.jpg'
-import sanMartinUrl from '../assets/san_martin.jpg'
-import amazonasUrl from '../assets/amazonas.jpg'
-import madreDeDiosUrl from '../assets/madre_dios.jpg'
+import loretoUrl from '@/assets/loreto.jpg'
+import ucayaliUrl from '@/assets/ucayali.jpg'
+import sanMartinUrl from '@/assets/san_martin.jpg'
+import amazonasUrl from '@/assets/amazonas.jpg'
+import madreDeDiosUrl from '@/assets/madre_dios.jpg'
 
 const regionBackground = ref<string>(loretoUrl)
 
@@ -47,7 +47,7 @@ function changeBackground(region: string) {
 <style scoped>
 .container {
   background: -webkit-linear-gradient(to right, #a7d5f2, #3E5902, #D2D904);
-  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c), url("../assets/bg.jpg") center/cover no-repeat;
+  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c), url("@/assets/bg.jpg") center/cover no-repeat;
   height: 100vh; 
   display: flex; 
   align-items: center; 
