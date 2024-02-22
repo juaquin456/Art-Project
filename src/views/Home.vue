@@ -27,7 +27,7 @@ function changeBackground(region: string) {
 
 <template>
  <div class="container">
-   <h1 class="title">AmazonArt</h1>
+   <h1 class="title">Amazonía</h1> <h1 class="title" style="font-size:7em;">al descubierto</h1>
    <p>¡Ven a conocer a artistas visuales indígenas de nuestra amazonía peruana!</p>
   </div>
   
@@ -58,19 +58,23 @@ function changeBackground(region: string) {
 p {
   text-align: center;
   font-size: 1.5em;
-  color: white;
-  margin-bottom: 50px;
+  color: black;
+  margin-bottom: 10px;
   font-family: "Sansita Swashed", system-ui;
+  background-color: rgb(175, 245, 118);
+  border-radius: 10px;
 }
 .title {
-  font-size: 15em;
+  font-size: 13em;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50px;
-  color: white;
+  margin-bottom: 20px;
+  color: rgb(55, 161, 23);
+  text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
   will-change: color;
   transition: color 300ms;
-  font-family: "Righteous", sans-serif;
+  font-family: "Protest Riot", sans-serif;
 }
 
 .demo-bg {
