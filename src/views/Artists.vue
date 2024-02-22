@@ -1,29 +1,254 @@
 <script setup lang="ts">
 
-
 </script>
 
 <template>
-    <div class="container">
-      <h1 class="title">AmazonArt</h1>
-      <p>Loreto</p>
-     </div>
-     
-     <div class="demo-wrap">
-       <div class="demo-content">
-       </div>
-     </div>
-   
+  <div class="container">
+   <h2 class="title">Loreto</h2>
+  </div>
+  <div class="content">
+
+  	<ul class="team">
+  		<li class="member co-funder">
+  			<div class="thumb"><img src="@/assets/artista1.png"></div>
+  			<div class="description">
+  				<h3>Brus Rubio Churay</h3>
+  				<p>Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.<br><a href="https://codepen.io/chriscoyier/">Explorar</a></p>
+  			</div>
+  		</li>
+  		<li class="member co-funder">
+  			<div class="thumb"><img src="@/assets/artista2.png"></div>
+  			<div class="description">
+  				<h3>Rember Yahuarcani</h3>
+  				<p>El artista uitoto se convierte en el primer curador indígena del Perú con la exposición "Nuio, volver a los orígenes".<br><a href="https://codepen.io/quezo/">Explorar</a></p>
+  			</div>
+  		</li>
+  		<li class="member">
+  			<div class="thumb"><img src="@/assets/artista3.png"></div>
+  			<div class="description">
+  				<h3>Santiago Yahuarcani y Nereyda López</h3>
+  				<p>La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.<br><a href="https://codepen.io/mariemosley/">Explorar</a></p>
+  			</div>
+  		</li>
+  		<li class="member">
+  			<div class="thumb"><img src="@/assets/artista4.png"></div>
+  			<div class="description">
+  				<h3>Olinda silvano</h3>
+  				<p>Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.<br><a href="https://codepen.io/shshaw/">Explorar</a></p>
+  			</div>
+  		</li>
+  	</ul>
+  </div>
 </template>
 
-<style scoped>
+<style>
 
-p {
-  text-align: center;
-  font-size: 1.5em;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+:root {
+	--yellow: #D2D904;
+	--dark: #172601;
+	--deg: -86deg;
+	--trans: all 0.4s ease 0s;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	display: flex;
+	justify-content: center;
+	font-family: "Lato", Arial, Helvetica, serif;
+  background: -webkit-linear-gradient(to right, #a7d5f2, #3E5902, #D2D904);
+  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c), url("@/assets/loreto.png") center/cover no-repeat;
+	/*background: linear-gradient(90deg, #131417, var(--dark) 35% 65%, #131417);*/
+	font-size: 1em;
+}
+
+body *,
+body *:before,
+body *:after {
+	box-sizing: border-box;
+}
+
+.content {
+	width: 90vmin;
+}
+
+h2 {
+	text-align: center;
+}
+
+.team {
+	padding: 2em 0 2em 2.5em;
+	margin: 0;
+}
+
+.member {
+	margin: 1.5em 0 0.5em;
+	padding: 0.73em;
+	background: linear-gradient(
+		83deg,
+		var(--yellow) 0 97%,
+		#fff0 calc(97% + 1px) 100%
+	);
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	transform: scale(0.85);
+	transition: var(--trans);
+}
+
+.member:nth-of-type(even) {
+	text-align: right;
+	background: linear-gradient(
+		-83deg,
+		var(--yellow) 0 97%,
+		#fff0 calc(97% + 1px) 100%
+	);
+}
+
+.thumb {
+	width: 13vmin;
+	height: 13vmin;
+	float: left;
+	margin-right: 1.25em;
+	background: linear-gradient(
+		var(--deg),
+		var(--dark) 0 70%,
+		var(--yellow) 0% 100%
+	);
+	transform: rotate(-4deg);
+	transition: var(--trans);
+	border-radius: 0.25em;
+	overflow: hidden;
+	margin-left: -3em;
+	padding: 0.5em;
+}
+
+.member:nth-of-type(even) .thumb {
+	--deg: 86deg;
+	float: right;
+	margin-left: 2em;
+	margin-right: -3em;
+	transform: rotate(4deg);
+}
+
+.thumb img {
+	width: 100%;
+	height: 100%;
+	border-radius: 0.25em;
+	filter: grayscale(1);
+	background: var(--dark);
+}
+
+.member:hover {
+	transform: scale(1);
+	transition: var(--trans);
+	filter: drop-shadow(0px 20px 10px #0008);
+}
+
+.member:hover .thumb {
+	padding: 0.1em;
+	transition: var(--trans);
+	transform: rotate(-1deg);
+	--deg: -89deg;
+}
+
+.member:nth-of-type(even):hover .thumb {
+	--deg: 91deg;
+}
+
+.member:hover .thumb img {
+	filter: none;
+	transition: var(--trans);
+}
+
+.description {
+	padding-top: 1vmin;
+}
+
+.description p {
+	padding: 0 2em;
+	margin-bottom: 1em;
   color: black;
-  margin-bottom: 50px;
-  font-family: "Sansita Swashed", system-ui;
+}
+
+h3 {
+	background: linear-gradient(182deg, #fff0 60%, var(--dark) 0 100%);
+	display: inline;
+	transform: rotate(-2deg);
+	position: absolute;
+	margin: 0;
+	margin-top: -2.25em;
+	left: 9vmin;
+	padding: 0.5em 0.75em;
+	color: var(--yellow);
+	border-radius: 0.25em;
+	font-size: 1.35em;
+	transform-origin: left bottom;
+  color: #A7D5F2;
+}
+
+.member:nth-of-type(even) h3 {
+	left: inherit;
+	right: 9vmin;
+	transform: rotate(2deg);
+	transform-origin: right bottom;
+	background: linear-gradient(-182deg, #fff0 60%, var(--dark) 0 100%);
+}
+
+.member:hover h3 {
+	transition: var(--trans);
+	transform: rotate(0deg);
+	background: linear-gradient(180deg, #fff0 59%, var(--dark) 0 100%);
+}
+
+.co-funder:after {
+	content: "Pintor";
+	font-size: 0.75em;
+	position: absolute;
+	top: -1.5em;
+	background: var(--yellow);
+	right: 4em;
+	transform: rotate(3deg);
+	padding: 0.35em 0.75em 0.5em;
+	border-radius: 0.25em;
+	color: var(--dark);
+	font-weight: bold;
+}
+
+.co-funder:nth-of-type(even):after {
+	right: inherit;
+	left: 4em;
+	transform: rotate(-3deg);
+}
+
+.description p a {
+	display: inline-block;
+	margin: 0.5em 0 0 0;
+	background: var(--dark);
+	color: var(--yellow);
+	padding: 0.1em 0.5em 0.35em;
+	border-radius: 0.5em;
+	text-decoration: none;
+	transition: var(--trans);
+}
+.description p a:hover {
+	transition: var(--trans);
+	color: var(--dark);
+	background: var(--yellow);
+	font-weight: bold;
+}
+
+.description p a img {
+	float: left;
+	width: 22px;
+	filter: invert(1);
+	border-radius: 0.15em;
+	padding: 2px;
+	background: #fff;
+	margin-right: 2px;
 }
 
 </style>
