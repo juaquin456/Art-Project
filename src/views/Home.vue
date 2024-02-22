@@ -78,9 +78,9 @@ function autoScroll(e: MouseEvent) {
     </div>
     
     <div id="title-container">
-      <h1 class="title">Amazonía</h1>
+      <h1 class="title">AMAZONÍA</h1>
       <h1 class="title" style="font-size:7em;">al descubierto</h1>
-      <p @click="autoScroll">Repositorio de artistas visuales indígenas de la amazonia peruana</p>
+      <p @click="autoScroll" style="cursor: pointer;">Repositorio de artistas visuales indígenas de la Amazonía peruana</p>
 
     </div>
   </div>
