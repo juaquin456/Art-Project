@@ -4,10 +4,9 @@
 
 <template>
   <div class="container">
-   <h2 class="title">Loreto</h2>
+   <h1 class="title">Loreto</h1>
   </div>
   <div class="content">
-
   	<ul class="team">
   		<li class="member co-funder">
   			<div class="thumb"><img src="@/assets/artista1.png"></div>
@@ -26,7 +25,7 @@
   		<li class="member">
   			<div class="thumb"><img src="@/assets/artista3.png"></div>
   			<div class="description">
-  				<h3>Santiago Yahuarcani y Nereyda López</h3>
+  				<h3>Santiago Yahuarcani</h3>
   				<p>La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.<br><a href="https://codepen.io/mariemosley/">Explorar</a></p>
   			</div>
   		</li>
@@ -35,6 +34,13 @@
   			<div class="description">
   				<h3>Olinda silvano</h3>
   				<p>Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.<br><a href="https://codepen.io/shshaw/">Explorar</a></p>
+  			</div>
+  		</li>
+  		<li class="member">
+  			<div class="thumb"><img src="@/assets/artista3.png"></div>
+  			<div class="description">
+  				<h3>Nereyda López</h3>
+  				<p>La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.<br><a href="https://codepen.io/mariemosley/">Explorar</a></p>
   			</div>
   		</li>
   	</ul>
@@ -59,10 +65,12 @@ body {
 	display: flex;
 	justify-content: center;
 	font-family: "Lato", Arial, Helvetica, serif;
-  background: -webkit-linear-gradient(to right, #a7d5f2, #3E5902, #D2D904);
-  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c), url("@/assets/loreto.png") center/cover no-repeat;
-	/*background: linear-gradient(90deg, #131417, var(--dark) 35% 65%, #131417);*/
-	font-size: 1em;
+  /* background: -webkit-linear-gradient(to right, #a7d5f2, #3E5902, #D2D904);
+  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c); */
+  background: #172601;
+  /*, url("@/assets/loreto.png") center/cover no-repeat */
+  
+  font-size: 1em;
 }
 
 body *,
@@ -73,6 +81,11 @@ body *:after {
 
 .content {
 	width: 90vmin;
+}
+
+h1 {
+  font-weight: 1000;
+  font-family: poppins;
 }
 
 h2 {
@@ -187,7 +200,9 @@ h3 {
 	border-radius: 0.25em;
 	font-size: 1.35em;
 	transform-origin: left bottom;
-  color: #A7D5F2;
+  /*color: #A7D5F2;*/
+
+
 }
 
 .member:nth-of-type(even) h3 {
