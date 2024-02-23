@@ -21,11 +21,12 @@ function showMenu() {
     <path fill="#000000" fill-rule="evenodd" v-else
       d="M16.293 17.707a1 1 0 001.414-1.414L11.414 10l6.293-6.293a1 1 0 00-1.414-1.414L10 8.586 3.707 2.293a1 1 0 00-1.414 1.414L8.586 10l-6.293 6.293a1 1 0 101.414 1.414L10 11.414l6.293 6.293z" />
   </svg>
+
   <div class="menu">
     <ul>
-      <li><router-link to="/" class="item-menu">Home</router-link></li>
-      <li><router-link to="/artistas" class="item-menu">Artistas</router-link></li>
-      <li><router-link to="/nosotros" class="item-menu">Nosotros</router-link></li>
+      <li><router-link @click="()=>{showMenu()}" to="/" class="item-menu">Home</router-link></li>
+      <li><router-link @click="()=>{showMenu()}" to="/artistas" class="item-menu">Artistas</router-link></li>
+      <li><router-link @click="()=>{showMenu()}" to="/nosotros" class="item-menu">Nosotros</router-link></li>
     </ul>
   </div>
   <RouterView />
@@ -39,7 +40,7 @@ function showMenu() {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 100;
+  z-index: 101;
   cursor: pointer;
   vertical-align: middle;
   transition: all 0.3s;
@@ -59,13 +60,13 @@ function showMenu() {
   justify-content: center;
   align-items: center;
   position: fixed;
+  z-index: 30000;
   top: 0;
   left: 0;
-  z-index: 2;
+  z-index: 100;
   width: 100vw;
   height: 100vh;
   background-color: #D2D904;
-  opacity: 0.95;
 
   &.active {
     display: block;

@@ -80,8 +80,8 @@ function autoScroll(e: MouseEvent) {
     <div id="title-container">
       <h1 class="title">AMAZONÍA</h1>
       <h1 class="title" style="font-size:7em;">al descubierto</h1>
-      <p @click="autoScroll" style="cursor: pointer;">Repositorio de artistas visuales indígenas de la Amazonía peruana</p>
-
+      <!-- <p  style="cursor: pointer;">Repositorio de artistas visuales indígenas de la Amazonía peruana</p> -->
+      <el-button @click="autoScroll" color="white" id="descriptionButton" plain>Repositorio de artistas visuales indígenas de la Amazonía peruana</el-button>
     </div>
   </div>
 </template>
@@ -99,9 +99,20 @@ p {
   font-size: 1.5em;
   color: white;
   margin-bottom: 10px;
-  font-family: "Sansita Swashed", system-ui;
   background-color: #172601;
   border-radius: 10px;
+}
+
+#descriptionButton {
+  font-size: 1.5em;
+  background-color: #172601;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#descriptionButton:hover {
+  cursor: pointer;
+  outline-color: white;
 }
 
 .title {
