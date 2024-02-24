@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Map from '@/components/Map.vue'
+import Map from '../components/Map.vue'
 import { onMounted, ref } from 'vue'
 
 import loretoUrl from '@/assets/loreto.jpg'
@@ -7,6 +7,7 @@ import ucayaliUrl from '@/assets/ucayali.jpg'
 import sanMartinUrl from '@/assets/san_martin.jpg'
 import amazonasUrl from '@/assets/amazonas.jpg'
 import madreDeDiosUrl from '@/assets/madre_dios.jpg'
+import { bg } from 'element-plus/es/locale/index.mjs'
 
 const regionBackground = ref<string>(loretoUrl)
 let scrollValue: number;
@@ -34,34 +35,28 @@ onMounted(() => {
   document.addEventListener("wheel", function(e: Event) {
 
     const delta = (e as WheelEvent).deltaY
-
-    if (scrollValue >= window.innerHeight) {
-      if (delta < 0) {
-        scrollValue += delta
-        titleElement!.style.transform = `translate(-50%, -${scrollValue}px)`
-        bgElement!.style.filter = `blur(10px)`;
-      }
+    const nextScrollValue = scrollValue + delta
+    if (nextScrollValue >= window.innerHeight) {
+      autoScroll()
+      scrollValue = window.innerHeight;
     }
-    else if (scrollValue <= originalPosition) {
-      if (delta > 0) {
-        scrollValue += delta
-        titleElement!.style.transform = `translate(-50%, -${scrollValue}px)`
-      }
+    else if (nextScrollValue <= originalPosition) {
+      titleElement!.style.transform = `translate(-50%, -50%)`
+      bgElement!.style.filter = `blur(10px)`;
+      scrollValue = originalPosition;
     }
-    else {
-      scrollValue += delta
-      titleElement!.style.transform = `translate(-50%, -${scrollValue}px)`
-      if (scrollValue >= window.innerHeight) {
-        bgElement!.style.filter = `blur(0px)`;
-      }
+    else{
+      titleElement!.style.transform = `translate(-50%, -${nextScrollValue}px)`
+      bgElement!.style.filter = `blur(10px)`;
+      scrollValue = nextScrollValue;
     }
   })
 })
 
-function autoScroll(e: MouseEvent) {
+function autoScroll() {
   const titleElement = document.getElementById("title-container");
   const bgElement = document.getElementById("bg");
-  titleElement!.style.transform = `translate(-50%, -${window.innerHeight}px)`
+  titleElement!.style.transform = `translate(-50%, -${window.innerHeight+titleElement!.getBoundingClientRect().height}px)`
   scrollValue = window.innerHeight;
   bgElement!.style.filter = `blur(0px)`;
 }
@@ -80,8 +75,7 @@ function autoScroll(e: MouseEvent) {
     <div id="title-container">
       <h1 class="title">AMAZONÍA</h1>
       <h1 class="title" style="font-size:7em;">al descubierto</h1>
-      <!-- <p  style="cursor: pointer;">Repositorio de artistas visuales indígenas de la Amazonía peruana</p> -->
-      <el-button @click="autoScroll" color="white" id="descriptionButton" plain>Repositorio de artistas visuales indígenas de la Amazonía peruana</el-button>
+      <el-button @click="autoScroll" color="white" id="descriptionButton" plain><p>Repositorio de artistas visuales indígenas de la Amazonía peruana</p></el-button>
     </div>
   </div>
 </template>
@@ -89,25 +83,16 @@ function autoScroll(e: MouseEvent) {
 <style scoped>
 #container {
   position: relative;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-}
-
-p {
-  text-align: center;
-  font-size: 1.5em;
-  color: white;
-  margin-bottom: 10px;
-  background-color: #172601;
-  border-radius: 10px;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 #descriptionButton {
-  font-size: 1.5em;
+  font-size: 1.6em;
   background-color: #172601;
-  padding: 10px 20px;
   border-radius: 10px;
+  padding: 20px 30px;
 }
 
 #descriptionButton:hover {
@@ -135,7 +120,7 @@ p {
   top: 0;
   width: auto;
   min-width: 100vw;
-  filter: blur(5px);
+  filter: blur(10px);
 }
 
 .demo-wrap {
