@@ -1,0 +1,29 @@
+{
+    "loreto": [
+        {
+            "name": "Brus Rubio Churay",
+            "description": "Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.",
+            "image": "/artista1.png"
+        },
+        {
+            "name": "Rember Yahuarcani",
+            "description": "El artista uitoto se convierte en el primer curador indígena del Perú con la exposición \"Nuio, volver a los orígenes\".",
+            "image": "/artista2.png"
+        },
+        {
+            "name": "Santiago Yahuarcani",
+            "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
+            "image": "/artista3.png"
+        },
+        {
+            "name": "Olinda silvano",
+            "description": "Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.",
+            "image": "/artista4.png"
+        },
+        {
+            "name": "Nereyda López",
+            "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
+            "image": "/artista3.png"
+        }
+    ]
+}

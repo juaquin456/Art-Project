@@ -1,4 +1,12 @@
 <script setup lang="ts">
+import {ref} from 'vue'
+import { useRoute } from 'vue-router';
+import artistas from '@/assets/artists.json'
+
+const route = useRoute()
+const depto = route.params.departamento
+
+const regionArtist = ref(artistas[depto])
 
 </script>
 
@@ -8,76 +16,29 @@
   </div>
   <div class="content">
   	<ul class="team">
-  		<li class="member co-funder">
-  			<div class="thumb"><img src="@/assets/artista1.png"></div>
+  		<li class="member co-funder" v-for="artist in regionArtist" :key="artist.name">
+  			<div class="thumb"><img :src="artist.image"></div>
   			<div class="description">
-  				<h3>Brus Rubio Churay</h3>
-  				<p>Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.<br><a href="https://codepen.io/chriscoyier/">Explorar</a></p>
-  			</div>
-  		</li>
-  		<li class="member co-funder">
-  			<div class="thumb"><img src="@/assets/artista2.png"></div>
-  			<div class="description">
-  				<h3>Rember Yahuarcani</h3>
-  				<p>El artista uitoto se convierte en el primer curador indígena del Perú con la exposición "Nuio, volver a los orígenes".<br><a href="https://codepen.io/quezo/">Explorar</a></p>
-  			</div>
-  		</li>
-  		<li class="member">
-  			<div class="thumb"><img src="@/assets/artista3.png"></div>
-  			<div class="description">
-  				<h3>Santiago Yahuarcani</h3>
-  				<p>La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.<br><a href="https://codepen.io/mariemosley/">Explorar</a></p>
-  			</div>
-  		</li>
-  		<li class="member">
-  			<div class="thumb"><img src="@/assets/artista4.png"></div>
-  			<div class="description">
-  				<h3>Olinda silvano</h3>
-  				<p>Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.<br><a href="https://codepen.io/shshaw/">Explorar</a></p>
-  			</div>
-  		</li>
-  		<li class="member">
-  			<div class="thumb"><img src="@/assets/artista3.png"></div>
-  			<div class="description">
-  				<h3>Nereyda López</h3>
-  				<p>La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.<br><a href="https://codepen.io/mariemosley/">Explorar</a></p>
+  				<h3>{{ artist.name }}</h3>
+  				<p>{{ artist.description }}<br><a href="https://codepen.io/chriscoyier/">Explorar</a></p>
   			</div>
   		</li>
   	</ul>
   </div>
 </template>
-
 <style>
-
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
-
 :root {
 	--yellow: #D2D904;
 	--dark: #172601;
 	--deg: -86deg;
 	--trans: all 0.4s ease 0s;
 }
+</style>
+<style scoped>
 
-body {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-	display: flex;
-	justify-content: center;
-	font-family: "Lato", Arial, Helvetica, serif;
-  /* background: -webkit-linear-gradient(to right, #a7d5f2, #3E5902, #D2D904);
-  background: linear-gradient(to right, #a7d5f291, #3E59029d, #D2D9048c); */
-  background: #172601;
-  /*, url("@/assets/loreto.png") center/cover no-repeat */
-  
-  font-size: 1em;
-}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
 
-body *,
-body *:before,
-body *:after {
-	box-sizing: border-box;
-}
+
 
 .content {
 	width: 90vmin;
@@ -188,7 +149,7 @@ h2 {
 }
 
 h3 {
-	background: linear-gradient(182deg, #fff0 60%, var(--dark) 0 100%);
+	background: var(--dark);
 	display: inline;
 	transform: rotate(-2deg);
 	position: absolute;
@@ -210,13 +171,11 @@ h3 {
 	right: 9vmin;
 	transform: rotate(2deg);
 	transform-origin: right bottom;
-	background: linear-gradient(-182deg, #fff0 60%, var(--dark) 0 100%);
 }
 
 .member:hover h3 {
 	transition: var(--trans);
 	transform: rotate(0deg);
-	background: linear-gradient(180deg, #fff0 59%, var(--dark) 0 100%);
 }
 
 .co-funder:after {
