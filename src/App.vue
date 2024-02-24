@@ -55,21 +55,20 @@ function showMenu() {
 
 
 .menu {
-  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: fixed;
-  z-index: 30000;
   top: 0;
   left: 0;
   z-index: 100;
   width: 100vw;
   height: 100vh;
   background-color: #D2D904;
-
+  transform: translate(100%, -100%);
+  transition: transform 0.3s ease-in-out;
   &.active {
-    display: block;
+    transform: translate(0, 0);
   }
 }
 
