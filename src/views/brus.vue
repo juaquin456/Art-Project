@@ -10,8 +10,14 @@
   </div>
   <div class="carousel">
     <el-carousel :interval="4000" type="card" height="400px" style="width: 1000px;">
-      <el-carousel-item v-for="item in 6" :key="item">
-        <h3 text="2xl" justify="center">{{ item }}</h3>
+      <el-carousel-item>
+        <img src="https://static.wixstatic.com/media/43ce63_5fdebce863fe42dd98c6ec6631d5547d~mv2.gif" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <img src="https://static.wixstatic.com/media/43ce63_91c5d1628bee4c678443923fc3c6e9df~mv2.gif" alt="">
+      </el-carousel-item>
+      <el-carousel-item>
+        <img src="https://static.wixstatic.com/media/43ce63_5fdebce863fe42dd98c6ec6631d5547d~mv2.gif" alt="">
       </el-carousel-item>
     </el-carousel>
   </div>
@@ -43,6 +49,7 @@ p {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-bottom: 50px;
 }
 
 .el-carousel__item h3 {
