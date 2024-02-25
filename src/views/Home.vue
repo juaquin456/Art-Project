@@ -74,7 +74,7 @@ function autoScroll() {
     <div id="title-container">
       <h1 class="title">AMAZONÍA</h1>
       <h1 class="title" style="font-size:8vw;">al descubierto</h1>
-      <button @click="autoScroll" class=" bg-green-dark text-white rounded-lg px-4 py-3 hover:font-bold">Repositorio de artistas visuales indígenas de la Amazonía peruana</button>
+      <button @click="autoScroll" class=" text-xs sm:text-base md:text-2xl bg-green-dark text-white rounded-lg px-4 py-3 hover:font-bold">Repositorio de artistas visuales indígenas de la Amazonía peruana</button>
     </div>
   </div>
 </template>
