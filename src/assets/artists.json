@@ -69,23 +69,33 @@
         "artistas": [
             {
                 "name": "Jorge Luis Tenazoa Torrejón",
-                "description": "Nació en el departamento de San Martín, distrito de Tarapoto. Nació en pleno corazón de la selva amazónica, el 7 de marzo de 1981.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpGp2EUrFpkWWgW5Gl7gPcVhCPYW3Mz3vPeq02E9o5IVS0R9IsoIutZwhocYHnjaxf3U&usqp=CAU"
+                "description": "Desde los 8 años de edad manifestó su pasión por el arte. Su temática giraba alrededor de diversos paisajes y costumbres propias de la selva peruana.",
+                "image": "https://www.cayomecenas.net/I207/Imagen%20020.jpg"
             },
             {
                 "name": "José Asunción Arteaga Jiménez",
-                "description": "Nacido en 1984 en un pequeño poblado de la selva peruana en el departamento de San Martín provincia de Lamas.",
+                "description": "Se interesó por la pintura desde corta edad, se formó autodidácticamente así como recogiendo experiencias y consejos de artistas profesionales. Al principio cautivado por diversos géneros pictóricos. Fué premiado, reconocido y exponente por invitación junto a grandes de la plástica peruana",
                 "image": "https://www.cayomecenas.net/I1205/FOTOGRAFIA.jpg"
             },
             {
                 "name": "Juan Echenique",
-                "description": "Nació en Lamas, Perú,  en 1967. Estudió pintura en la Escuela Nacional de Bellas Artes de Lima, egresando en 1994.",
+                "description": "Estudió pintura en la Escuela Nacional de Bellas Artes de Lima, egresando en 1994. ",
                 "image": "https://www.cayomecenas.net/I010/retrato.jpg"
             },
             {
-                "name": "Watsildi López Cachique",
+                "name": "Amelia Weiss",
+                "description": "Amelia Weiss (Moyobamba, Perú, 1926) es una escultora y pintora peruana.",
+                "image": "https://live.staticflickr.com/2303/1677352042_b2014b0083_b.jpg"
+            },
+            {
+                "name": "Yolanda Raceto Ruiz",
                 "description": "",
-                "image": "https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/373673004_6944722785613811_5581874463968670994_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeHHx-FftBozfUcESr1Z8qfbG1CoLoTq694bUKguhOrr3tkp2Pv_u6lVvm-7RXIiQBGG_wgpnFLjpUEGqZKKs8hZ&_nc_ohc=7uPaDhKZUfEAX81EYBT&_nc_ht=scontent-lim1-1.xx&oh=00_AfB2bFXdR36cTL_WY-g-zsslav7lsqJQnEFk6Af3dqKelg&oe=65DFAA57"
+                "image": "https://pbs.twimg.com/profile_images/441047319799005184/nEc0Uf1v_400x400.jpeg"
+            },
+            {
+                "name": "Watsildi López Cachique",
+                "description": "Para Watsildi López Cachique, los maestros de las artes plásticas sanmartinenses fueron la mayor motivación e inspiración. Tenía 15 años cuando los conoció.",
+                "image": "https://scontent.flim1-2.fna.fbcdn.net/v/t39.30808-6/394635239_7129197753832979_1364229547205453351_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeEHIANaILgoXOXLCMBdOHcoIGwPMpgRPRIgbA8ymBE9EtzszOYpYZQjArFgWi0K8aqemnSENyKj9SzdePa4U_1X&_nc_ohc=iQ55qqqNlvMAX9Bajkz&_nc_ht=scontent.flim1-2.fna&oh=00_AfAapwrXhFQSgIymxpbDZ6DZpFeQPztlMUi1-aCIEzNVIw&oe=65E16804"
             }
         ]
     },
