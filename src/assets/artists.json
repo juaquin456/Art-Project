@@ -1,29 +1,106 @@
 {
-    "loreto": [
-        {
-            "name": "Brus Rubio Churay",
-            "description": "Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.",
-            "image": "/artista1.png"
-        },
-        {
-            "name": "Rember Yahuarcani",
-            "description": "El artista uitoto se convierte en el primer curador indígena del Perú con la exposición \"Nuio, volver a los orígenes\".",
-            "image": "/artista2.png"
-        },
-        {
-            "name": "Santiago Yahuarcani",
-            "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
-            "image": "/artista3.png"
-        },
-        {
-            "name": "Olinda silvano",
-            "description": "Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.",
-            "image": "/artista4.png"
-        },
-        {
-            "name": "Nereyda López",
-            "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
-            "image": "/artista3.png"
-        }
-    ]
+    "loreto": {
+        "displayName": "Loreto",
+        "artistas": [
+            {
+                "name": "Brus Rubio Churay",
+                "description": "Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.",
+                "image": "/artista1.png"
+            },
+            {
+                "name": "Rember Yahuarcani",
+                "description": "El artista uitoto se convierte en el primer curador indígena del Perú con la exposición \"Nuio, volver a los orígenes\".",
+                "image": "/artista2.png"
+            },
+            {
+                "name": "Santiago Yahuarcani",
+                "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
+                "image": "/artista3.png"
+            },
+            {
+                "name": "Olinda silvano",
+                "description": "Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.",
+                "image": "/artista4.png"
+            },
+            {
+                "name": "Nereyda López",
+                "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
+                "image": "/artista3.png"
+            }
+        ]
+    },
+    "ucayali": {
+        "displayName": "Ucayali",
+        "artistas": [
+            {
+                "name": "Harry Pinedo Valera",
+                "description": "Inin metsa (Harry Pinedo Valera) es un artista originario Jonikon de la comunidad Shipibo-conibo de la ciudad de Pucallpa, Perú.",
+                "image": "https://i0.wp.com/thedesigner.se/wp-content/uploads/2021/07/foto-3-Harry.jpeg?resize=720%2C400&ssl=1"
+            },
+            {
+                "name": "Roldán Pinedo",
+                "description": "",
+                "image": "https://limapuzzle.com/wp-content/uploads/2022/02/Roldan.jpg"
+            },
+            {
+                "name": "Cordelia Sánchez",
+                "description": "Soy Cordelia Sánchez y pertenezco a la comunidad nativa de San Francisco en Ucayali.",
+                "image": "https://insiteart.org/uploads/images/_medium/Cordelia-Sanchez.png"
+            },
+            {
+                "name": "Elena Valera",
+                "description": "Doña Elena, cuyo nombre shipibo es Bawan Jisbe, es una reconocida pintora y bordadora que incorpora en su universo visual personajes y seres mitológicos y sagrados producto de sus visiones con ayahuasca, como también la vida cotidiana, las costumbres y la flora y la fauna, del entorno de las comunidades shipibas.",
+                "image": "https://mmaracuja.files.wordpress.com/2014/10/unnamed.jpg?w=300&h=240"
+            },
+            {
+                "name": "Olinda Silvano",
+                "description": "",
+                "image": ""
+            }
+        ]
+    },
+    "san-martin": {
+        "displayName": "San Martín",
+        "artistas": [
+            {
+                "name": "Jorge Luis Tenazoa Torrejón",
+                "description": "Nació en el departamento de San Martín, distrito de Tarapoto. Nació en pleno corazón de la selva amazónica, el 7 de marzo de 1981.",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnpGp2EUrFpkWWgW5Gl7gPcVhCPYW3Mz3vPeq02E9o5IVS0R9IsoIutZwhocYHnjaxf3U&usqp=CAU"
+            },
+            {
+                "name": "José Asunción Arteaga Jiménez",
+                "description": "Nacido en 1984 en un pequeño poblado de la selva peruana en el departamento de San Martín provincia de Lamas.",
+                "image": "https://www.cayomecenas.net/I1205/FOTOGRAFIA.jpg"
+            },
+            {
+                "name": "Juan Echenique",
+                "description": "Nació en Lamas, Perú,  en 1967. Estudió pintura en la Escuela Nacional de Bellas Artes de Lima, egresando en 1994.",
+                "image": "https://www.cayomecenas.net/I010/retrato.jpg"
+            },
+            {
+                "name": "Watsildi López Cachique",
+                "description": "",
+                "image": "https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/373673004_6944722785613811_5581874463968670994_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeHHx-FftBozfUcESr1Z8qfbG1CoLoTq694bUKguhOrr3tkp2Pv_u6lVvm-7RXIiQBGG_wgpnFLjpUEGqZKKs8hZ&_nc_ohc=7uPaDhKZUfEAX81EYBT&_nc_ht=scontent-lim1-1.xx&oh=00_AfB2bFXdR36cTL_WY-g-zsslav7lsqJQnEFk6Af3dqKelg&oe=65DFAA57"
+            }
+        ]
+    },
+    "amazonas": {
+        "displayName": "Amazonas",
+        "artistas": [
+            {
+                "name": "Pablo Chávez Cruz",
+                "description": "Pablo Chávez Cruz: Es un reconocido artesano de la región de Amazonas en Perú. Se dedica a la elaboración de hermosos productos utilitarios en base a fibra vegetal de bambú nativo.",
+                "image": ""
+            },
+            {
+                "name": "Miguel Huamán Revilla",
+                "description": "Nació en 1977 en el anexo Pircapampa, distrito de Santo Tomás, provincia de Luya. A los 12 años aprendió, de manera autodidacta, a tallar madera y piedra. Con las maderas de nogal, ishpingo, cedro y caoba, talla obras finas, policromadas con acrílico y con pigmentos naturales.",
+                "image": ""
+            }
+        ]
+    },
+    "madre-de-dios": {
+        "displayName": "Madre de Dios",
+        "artistas": []
+    }
 }

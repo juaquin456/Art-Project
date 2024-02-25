@@ -1,22 +1,25 @@
 <script setup lang="ts">
-import {ref} from 'vue'
 import { useRoute } from 'vue-router';
+import { useRouter } from 'vue-router';
 import artistas from '@/assets/artists.json'
+import { onBeforeMount } from 'vue';
 
 const route = useRoute()
-const depto = route.params.departamento
+const router = useRouter()
+const depto = route.params.departamento as string
 
-const regionArtist = ref(artistas[depto])
+const regionArtist = artistas[depto] 
+
 
 </script>
 
 <template>
   <div class="container">
-   <h1 class="title">Loreto</h1>
+   <h1 class="title">{{ regionArtist.displayName}}</h1>
   </div>
   <div class="content">
   	<ul class="team">
-  		<li class="member co-funder" v-for="artist in regionArtist" :key="artist.name">
+  		<li class="member co-funder" v-for="artist in regionArtist.artistas" :key="artist.name">
   			<div class="thumb"><img :src="artist.image"></div>
   			<div class="description">
   				<h3>{{ artist.name }}</h3>

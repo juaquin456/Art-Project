@@ -3,7 +3,6 @@ import {ref} from 'vue'
 
 const menuDisplayed = ref(false)
 
-
 function showMenu() {
   const menu = document.querySelector('.menu') as HTMLElement
   const button = document.querySelector('.button-menu') as HTMLElement
@@ -11,6 +10,7 @@ function showMenu() {
   button.classList.toggle('active')
   menuDisplayed.value = !menuDisplayed.value
 }
+
 </script>
 
 <template>
@@ -25,7 +25,28 @@ function showMenu() {
   <div class="menu">
     <ul>
       <li><router-link @click="()=>{showMenu()}" to="/" class="item-menu">Home</router-link></li>
-      <li><router-link @click="()=>{showMenu()}" to="/artistas" class="item-menu">Artistas</router-link></li>
+      <li>
+        <div class="item-menu" @mouseover="showDeptos">
+        Artistas
+        <ul id="deptos">
+          <li>
+            <router-link @click="()=>{showMenu()}" to="/artistas/amazonas" class="subitem-menu">Amazonas</router-link>
+          </li>
+          <li>
+            <router-link @click="()=>{showMenu()}" to="/artistas/loreto" class="subitem-menu">Loreto</router-link>
+          </li>
+          <li>
+            <router-link @click="()=>{showMenu()}" to="/artistas/madre-de-dios" class="subitem-menu">Madre de Dios</router-link>
+          </li>
+          <li>
+            <router-link @click="()=>{showMenu()}" to="/artistas/san-martin" class="subitem-menu">San Martín</router-link>
+          </li>
+          <li>
+            <router-link @click="()=>{showMenu()}" to="/artistas/ucayali" class="subitem-menu">Ucayali</router-link>
+          </li>
+          </ul>
+        </div>
+      </li>
       <li><router-link @click="()=>{showMenu()}" to="/nosotros" class="item-menu">Nosotros</router-link></li>
     </ul>
   </div>
@@ -73,7 +94,7 @@ function showMenu() {
 }
 
 
-.menu ul {
+.menu > ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -89,12 +110,40 @@ function showMenu() {
   display: block;
   padding: 20px;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
   color: #172601;
   text-decoration: none;
-
+  transition: transform 0.3s;
   &:hover {
     background-color: #172601;
+    cursor: pointer;
+    color: #D2D904;
+    font-weight: bolder;
+  }
+  &:hover > ul{
+    max-height: 200px;
+  }
+}
+
+.item-menu > ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  list-style: none;
+  transition: max-height 0.3s;
+}
+
+.subitem-menu {
+  text-align: center;
+  font-size: 1em;
+  color: #a7d5f2;
+  text-decoration: none;
+  transition: transform 0.3s;
+  &:hover {
+    background-color: #172601;
+    cursor: pointer;
     color: #D2D904;
   }
 }
