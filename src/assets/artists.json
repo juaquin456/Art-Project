@@ -5,27 +5,27 @@
             {
                 "name": "Brus Rubio Churay",
                 "description": "Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.",
-                "image": "/artista1.png"
+                "image": "https://anturiongallery.com/wp-content/uploads/2023/12/Brus-Rubio-Foto-Perfil.jpeg"
             },
             {
                 "name": "Rember Yahuarcani",
-                "description": "El artista uitoto se convierte en el primer curador indígena del Perú con la exposición \"Nuio, volver a los orígenes\".",
-                "image": "/artista2.png"
+                "description": "Rember Yahuarcani, un artista visual, escritor y activista del pueblo Uitoto Aímen en la Amazonia peruana, quien presentó su primera exposición en solitario en Estados Unidos el 31 de diciembre del 2022, ‘USUMA, spirits of power’.",
+                "image": "https://elcomercio.pe/resizer/PLHR2_0zGRrNlo2gG34bdKkS5lE=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VKBMT7RSJRBP3MZVSH2AAU4A5M.jpg"
             },
             {
-                "name": "Santiago Yahuarcani",
-                "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
-                "image": "/artista3.png"
+                "name": "Gino Ceccarelli",
+                "description": "Es un reconocido artista plástico loretano, además de director del Instituto Nacional de Cultura de Loreto y, uno de los intelectuales más lúcidos y mordaces de la Amazonía peruana.",
+                "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelliu-Paris-02-scaled.jpeg"
             },
             {
-                "name": "Olinda silvano",
-                "description": "Olinda Silvano Inuma (Paoyhan, 1969) es una artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana.",
-                "image": "/artista4.png"
+                "name": "Olinda Silvano Inuma",
+                "description": " Artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana. Su nombre en chipibo es Reshen Jabe  que significa \"El pimer suspiro\"",
+                "image": "https://i0.wp.com/comandoplath.com/wp-content/uploads/2021/06/Olinda-mapa-ShA-web.jpg?w=400&ssl=1"
             },
             {
                 "name": "Nereyda López",
-                "description": "La familia Yahuarcani desciende del grupo étnico huitoto y específicamente del Clan Aimen+ o de La Garza Blanca.",
-                "image": "/artista3.png"
+                "description": "Artista Plástico Amazónico \"el rey del pincel en Yurimaguas\",sus obras  reivindican las manifestaciones culturales inspiradas en las cosmovisiones amazónicas",
+                "image": ""
             }
         ]
     },
@@ -34,28 +34,33 @@
         "artistas": [
             {
                 "name": "Harry Pinedo Valera",
-                "description": "Inin metsa (Harry Pinedo Valera) es un artista originario Jonikon de la comunidad Shipibo-conibo de la ciudad de Pucallpa, Perú.",
-                "image": "https://i0.wp.com/thedesigner.se/wp-content/uploads/2021/07/foto-3-Harry.jpeg?resize=720%2C400&ssl=1"
+                "description": "Inin metsa (Harry Pinedo Valera) es un artista originario Jonikon de la comunidad Shipibo-conibo de la ciudad Pucallpa, Perú. En sus pinturas plasma con estilo propio la magia y el misterio de los animales y las leyendas de la Amazonía",
+                "image": "https://i0.wp.com/thedesigner.se/wp-content/uploads/2021/07/FOTO-2-Harry.jpeg?w=868&ssl=1"
             },
             {
                 "name": "Roldán Pinedo",
-                "description": "",
+                "description": "Shoyan Shëca (Roldán Pinedo), artista originario Jonikon, nació en la comunidad Shipibo-conibo de San Francisco de Yarinacocha. Su arte, basado en la mitología shipiba, retrata las costumbres y vivencias de su pueblo, visiones de ayahuasca y la flora y fauna de la naturaleza amazónica",
                 "image": "https://limapuzzle.com/wp-content/uploads/2022/02/Roldan.jpg"
             },
             {
                 "name": "Cordelia Sánchez",
-                "description": "Soy Cordelia Sánchez y pertenezco a la comunidad nativa de San Francisco en Ucayali.",
+                "description": "Cordelia sanchez es una integrante de la comunidad nativa San Francisco en Ucayali",
                 "image": "https://insiteart.org/uploads/images/_medium/Cordelia-Sanchez.png"
             },
             {
-                "name": "Elena Valera",
-                "description": "Doña Elena, cuyo nombre shipibo es Bawan Jisbe, es una reconocida pintora y bordadora que incorpora en su universo visual personajes y seres mitológicos y sagrados producto de sus visiones con ayahuasca, como también la vida cotidiana, las costumbres y la flora y la fauna, del entorno de las comunidades shipibas.",
-                "image": "https://mmaracuja.files.wordpress.com/2014/10/unnamed.jpg?w=300&h=240"
+                "name": "Elena Valera Vázquez",
+                "description": "Pionera de la pintura Shipibo-Konibo contemporánea en Lima, actividad que, como ella misma relata, inició siendo muy joven.",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jspu-GhtvmyRWB73JWMiQhLurtoypJSFaQ&usqp=CAU"
             },
             {
-                "name": "Olinda Silvano",
-                "description": "",
-                "image": ""
+                "name": "Lastenia Canayo",
+                "description": "Artista amazónica, pertenece al pueblo shipibo-konibo. Su nombre nativo es Pecon Quena, \"la que llama a los colores\".",
+                "image": "https://elcomercio.pe/resizer/_J71l5Lu73sZNWxpLrrdBcc8Rx0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/V3B5MJ2M2VFZVMMBFE5JEFV7IE.jpg"
+            },
+            {
+                "name": "Dimas Paredes Armas",
+                "description": "Pintor peruano",
+                "image": "https://scontent-lim1-1.xx.fbcdn.net/v/t31.18172-8/13063323_1720952928173363_5160619017613659388_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeFLVadp9jPfHxDYLoPQ6bKj6Pf_22eywCbo9__bZ7LAJiZqy6msuUArDlDAfSjvsyyGPztempVKesqkSmVsnfX6&_nc_ohc=Q31dNtPgDxcAX9kcYG7&_nc_ht=scontent-lim1-1.xx&oh=00_AfCVNzAO0qrneWEOOd4Tbsej8-h_sSasMegEJoQ8EI5KRg&oe=6603075D"
             }
         ]
     },
