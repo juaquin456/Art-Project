@@ -1,15 +1,19 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router';
-import { useRouter } from 'vue-router';
+import { ref } from 'vue'
+import { onBeforeRouteUpdate, useRoute } from 'vue-router';
 import artistas from '@/assets/artists.json'
-import { onBeforeMount } from 'vue';
 
 const route = useRoute()
-const router = useRouter()
 const depto = route.params.departamento as string
 
-const regionArtist = artistas[depto] 
+const arts = ref(artistas)
+const regionArtist = ref(artistas[depto]) 
 
+onBeforeRouteUpdate((to, _, next) => {
+  const depto = to.params.departamento as string
+  regionArtist.value = arts.value[depto]
+  next()
+})
 
 </script>
 

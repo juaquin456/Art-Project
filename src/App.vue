@@ -26,8 +26,8 @@ function showMenu() {
     <ul>
       <li><router-link @click="()=>{showMenu()}" to="/" class="item-menu">Home</router-link></li>
       <li>
-        <div class="item-menu" @mouseover="showDeptos">
-        Artistas
+        <div class="item-menu">
+        <span>Artistas</span>
         <ul id="deptos">
           <li>
             <router-link @click="()=>{showMenu()}" to="/artistas/amazonas" class="subitem-menu">Amazonas</router-link>
@@ -121,7 +121,7 @@ function showMenu() {
     font-weight: bolder;
   }
   &:hover > ul{
-    max-height: 200px;
+    max-height: 300px;
   }
 }
 
