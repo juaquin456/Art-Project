@@ -5,27 +5,32 @@
             {
                 "name": "Brus Rubio Churay",
                 "description": "Pintor autodidacta descendiente de los pueblos originarios huitoto y bora, de la Amazonía peruana.",
-                "image": "https://anturiongallery.com/wp-content/uploads/2023/12/Brus-Rubio-Foto-Perfil.jpeg"
+                "image": "https://anturiongallery.com/wp-content/uploads/2023/12/Brus-Rubio-Foto-Perfil.jpeg",
+                "page": "loreto/brus"
             },
             {
                 "name": "Rember Yahuarcani",
                 "description": "Rember Yahuarcani, un artista visual, escritor y activista del pueblo Uitoto Aímen en la Amazonia peruana, quien presentó su primera exposición en solitario en Estados Unidos el 31 de diciembre del 2022, ‘USUMA, spirits of power’.",
-                "image": "https://elcomercio.pe/resizer/PLHR2_0zGRrNlo2gG34bdKkS5lE=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VKBMT7RSJRBP3MZVSH2AAU4A5M.jpg"
+                "image": "https://elcomercio.pe/resizer/PLHR2_0zGRrNlo2gG34bdKkS5lE=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VKBMT7RSJRBP3MZVSH2AAU4A5M.jpg",
+                "page": "loreto/rember"
             },
             {
                 "name": "Gino Ceccarelli",
                 "description": "Es un reconocido artista plástico loretano, además de director del Instituto Nacional de Cultura de Loreto y, uno de los intelectuales más lúcidos y mordaces de la Amazonía peruana.",
-                "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelliu-Paris-02-scaled.jpeg"
+                "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelliu-Paris-02-scaled.jpeg",
+                "page": "loreto/gino"
             },
             {
                 "name": "Olinda Silvano Inuma",
                 "description": " Artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana. Su nombre en chipibo es Reshen Jabe  que significa \"El pimer suspiro\"",
-                "image": "https://i0.wp.com/comandoplath.com/wp-content/uploads/2021/06/Olinda-mapa-ShA-web.jpg?w=400&ssl=1"
+                "image": "https://i0.wp.com/comandoplath.com/wp-content/uploads/2021/06/Olinda-mapa-ShA-web.jpg?w=400&ssl=1",
+                "page": "loreto/olinda"
             },
             {
                 "name": "Nereyda López",
                 "description": "Artista Plástico Amazónico \"el rey del pincel en Yurimaguas\",sus obras  reivindican las manifestaciones culturales inspiradas en las cosmovisiones amazónicas",
-                "image": ""
+                "image": "",
+                "page": "loreto/nereyda"
             }
         ]
     },
@@ -35,32 +40,38 @@
             {
                 "name": "Harry Pinedo Valera",
                 "description": "Inin metsa (Harry Pinedo Valera) es un artista originario Jonikon de la comunidad Shipibo-conibo de la ciudad Pucallpa, Perú. En sus pinturas plasma con estilo propio la magia y el misterio de los animales y las leyendas de la Amazonía",
-                "image": "https://i0.wp.com/thedesigner.se/wp-content/uploads/2021/07/FOTO-2-Harry.jpeg?w=868&ssl=1"
+                "image": "https://i0.wp.com/thedesigner.se/wp-content/uploads/2021/07/FOTO-2-Harry.jpeg?w=868&ssl=1",
+                "page": "ucayali/harry"
             },
             {
                 "name": "Roldán Pinedo",
                 "description": "Shoyan Shëca (Roldán Pinedo), artista originario Jonikon, nació en la comunidad Shipibo-conibo de San Francisco de Yarinacocha. Su arte, basado en la mitología shipiba, retrata las costumbres y vivencias de su pueblo, visiones de ayahuasca y la flora y fauna de la naturaleza amazónica",
-                "image": "https://limapuzzle.com/wp-content/uploads/2022/02/Roldan.jpg"
+                "image": "https://limapuzzle.com/wp-content/uploads/2022/02/Roldan.jpg",
+                "page": "ucayali/roldan"
             },
             {
                 "name": "Cordelia Sánchez",
                 "description": "Cordelia sanchez es una integrante de la comunidad nativa San Francisco en Ucayali",
-                "image": "https://insiteart.org/uploads/images/_medium/Cordelia-Sanchez.png"
+                "image": "https://insiteart.org/uploads/images/_medium/Cordelia-Sanchez.png",
+                "page": "ucayali/cordelia"
             },
             {
                 "name": "Elena Valera Vázquez",
                 "description": "Pionera de la pintura Shipibo-Konibo contemporánea en Lima, actividad que, como ella misma relata, inició siendo muy joven.",
-                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jspu-GhtvmyRWB73JWMiQhLurtoypJSFaQ&usqp=CAU"
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jspu-GhtvmyRWB73JWMiQhLurtoypJSFaQ&usqp=CAU",
+                "page": "ucayali/elena"
             },
             {
                 "name": "Lastenia Canayo",
                 "description": "Artista amazónica, pertenece al pueblo shipibo-konibo. Su nombre nativo es Pecon Quena, \"la que llama a los colores\".",
-                "image": "https://elcomercio.pe/resizer/_J71l5Lu73sZNWxpLrrdBcc8Rx0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/V3B5MJ2M2VFZVMMBFE5JEFV7IE.jpg"
+                "image": "https://elcomercio.pe/resizer/_J71l5Lu73sZNWxpLrrdBcc8Rx0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/V3B5MJ2M2VFZVMMBFE5JEFV7IE.jpg",
+                "page": "ucayali/lastenia"
             },
             {
                 "name": "Dimas Paredes Armas",
                 "description": "Pintor peruano",
-                "image": "https://scontent-lim1-1.xx.fbcdn.net/v/t31.18172-8/13063323_1720952928173363_5160619017613659388_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeFLVadp9jPfHxDYLoPQ6bKj6Pf_22eywCbo9__bZ7LAJiZqy6msuUArDlDAfSjvsyyGPztempVKesqkSmVsnfX6&_nc_ohc=Q31dNtPgDxcAX9kcYG7&_nc_ht=scontent-lim1-1.xx&oh=00_AfCVNzAO0qrneWEOOd4Tbsej8-h_sSasMegEJoQ8EI5KRg&oe=6603075D"
+                "image": "https://scontent-lim1-1.xx.fbcdn.net/v/t31.18172-8/13063323_1720952928173363_5160619017613659388_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeFLVadp9jPfHxDYLoPQ6bKj6Pf_22eywCbo9__bZ7LAJiZqy6msuUArDlDAfSjvsyyGPztempVKesqkSmVsnfX6&_nc_ohc=Q31dNtPgDxcAX9kcYG7&_nc_ht=scontent-lim1-1.xx&oh=00_AfCVNzAO0qrneWEOOd4Tbsej8-h_sSasMegEJoQ8EI5KRg&oe=6603075D",
+                "page": "ucayali/dimas"
             }
         ]
     },
@@ -70,32 +81,38 @@
             {
                 "name": "Jorge Luis Tenazoa Torrejón",
                 "description": "Desde los 8 años de edad manifestó su pasión por el arte. Su temática giraba alrededor de diversos paisajes y costumbres propias de la selva peruana.",
-                "image": "https://www.cayomecenas.net/I207/Imagen%20020.jpg"
+                "image": "https://www.cayomecenas.net/I207/Imagen%20020.jpg",
+                "page": "san-martin/jorge"
             },
             {
                 "name": "José Asunción Arteaga Jiménez",
                 "description": "Se interesó por la pintura desde corta edad, se formó autodidácticamente así como recogiendo experiencias y consejos de artistas profesionales. Al principio cautivado por diversos géneros pictóricos. Fué premiado, reconocido y exponente por invitación junto a grandes de la plástica peruana",
-                "image": "https://www.cayomecenas.net/I1205/FOTOGRAFIA.jpg"
+                "image": "https://www.cayomecenas.net/I1205/FOTOGRAFIA.jpg",
+                "page": "san-martin/jose"
             },
             {
                 "name": "Juan Echenique",
                 "description": "Estudió pintura en la Escuela Nacional de Bellas Artes de Lima, egresando en 1994. ",
-                "image": "https://www.cayomecenas.net/I010/retrato.jpg"
+                "image": "https://www.cayomecenas.net/I010/retrato.jpg",
+                "page": "san-martin/juan"
             },
             {
                 "name": "Amelia Weiss",
                 "description": "Amelia Weiss (Moyobamba, Perú, 1926) es una escultora y pintora peruana.",
-                "image": "https://live.staticflickr.com/2303/1677352042_b2014b0083_b.jpg"
+                "image": "https://live.staticflickr.com/2303/1677352042_b2014b0083_b.jpg",
+                "page": "san-martin/amelia"
             },
             {
                 "name": "Yolanda Raceto Ruiz",
                 "description": "",
-                "image": "https://pbs.twimg.com/profile_images/441047319799005184/nEc0Uf1v_400x400.jpeg"
+                "image": "https://pbs.twimg.com/profile_images/441047319799005184/nEc0Uf1v_400x400.jpeg",
+                "page": "san-martin/yolanda"
             },
             {
                 "name": "Watsildi López Cachique",
                 "description": "Para Watsildi López Cachique, los maestros de las artes plásticas sanmartinenses fueron la mayor motivación e inspiración. Tenía 15 años cuando los conoció.",
-                "image": "https://scontent.flim1-2.fna.fbcdn.net/v/t39.30808-6/394635239_7129197753832979_1364229547205453351_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeEHIANaILgoXOXLCMBdOHcoIGwPMpgRPRIgbA8ymBE9EtzszOYpYZQjArFgWi0K8aqemnSENyKj9SzdePa4U_1X&_nc_ohc=iQ55qqqNlvMAX9Bajkz&_nc_ht=scontent.flim1-2.fna&oh=00_AfAapwrXhFQSgIymxpbDZ6DZpFeQPztlMUi1-aCIEzNVIw&oe=65E16804"
+                "image": "https://scontent.flim1-2.fna.fbcdn.net/v/t39.30808-6/394635239_7129197753832979_1364229547205453351_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeEHIANaILgoXOXLCMBdOHcoIGwPMpgRPRIgbA8ymBE9EtzszOYpYZQjArFgWi0K8aqemnSENyKj9SzdePa4U_1X&_nc_ohc=iQ55qqqNlvMAX9Bajkz&_nc_ht=scontent.flim1-2.fna&oh=00_AfAapwrXhFQSgIymxpbDZ6DZpFeQPztlMUi1-aCIEzNVIw&oe=65E16804",
+                "page": "san-martin/watsildi"
             }
         ]
     },

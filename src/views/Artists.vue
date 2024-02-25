@@ -7,11 +7,11 @@ const route = useRoute()
 const depto = route.params.departamento as string
 
 const arts = ref(artistas)
-const regionArtist = ref(artistas[depto as keyof typeof artistas] as { displayName: string; artistas: { name: string; description: string; image: string; }[] })
+const regionArtist = ref(artistas[depto as keyof typeof artistas] as { displayName: string; artistas: { name: string; description: string; image: string; page: string;}[] })
 
 onBeforeRouteUpdate((to, _, next) => {
   const depto = to.params.departamento as string
-regionArtist.value = arts.value[depto as keyof typeof arts.value];
+regionArtist.value = arts.value[depto as keyof typeof arts.value] as { displayName: string; artistas: { name: string; description: string; image: string; page: string; }[] };
   next()
 })
 
@@ -27,7 +27,7 @@ regionArtist.value = arts.value[depto as keyof typeof arts.value];
   			<div class="thumb"><img :src="artist.image"></div>
   			<div class="description">
   				<h3>{{ artist.name }}</h3>
-  				<p>{{ artist.description }}<br><a href="https://codepen.io/chriscoyier/">Explorar</a></p>
+  				<p>{{ artist.description }}<br><router-link :to="artist.page">Explorar</router-link></p>
   			</div>
   		</li>
   	</ul>
