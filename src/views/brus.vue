@@ -30,14 +30,8 @@
 
 
 
-<style>
+<style scoped>
 
-body {
-  background: #654ea3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #3E5902, #D2D904);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #3E5902, #D2D904); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
 h1 {
   padding-top: 20px;
   padding-bottom: 10px;
