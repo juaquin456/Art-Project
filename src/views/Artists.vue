@@ -1,17 +1,17 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { onBeforeRouteUpdate, useRoute } from 'vue-router';
-import artistas from '@/assets/artists.json'
+import artistas from '../assets/artists.json'
 
 const route = useRoute()
 const depto = route.params.departamento as string
 
 const arts = ref(artistas)
-const regionArtist = ref(artistas[depto]) 
+const regionArtist = ref(artistas[depto as keyof typeof artistas] as { displayName: string; artistas: { name: string; description: string; image: string; }[] })
 
 onBeforeRouteUpdate((to, _, next) => {
   const depto = to.params.departamento as string
-  regionArtist.value = arts.value[depto]
+regionArtist.value = arts.value[depto as keyof typeof arts.value];
   next()
 })
 

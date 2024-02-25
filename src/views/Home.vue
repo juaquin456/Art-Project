@@ -7,7 +7,6 @@ import ucayaliUrl from '@/assets/ucayali.jpg'
 import sanMartinUrl from '@/assets/san_martin.jpg'
 import amazonasUrl from '@/assets/amazonas.jpg'
 import madreDeDiosUrl from '@/assets/madre_dios.jpg'
-import { bg } from 'element-plus/es/locale/index.mjs'
 
 const regionBackground = ref<string>(loretoUrl)
 let scrollValue: number;
@@ -66,7 +65,7 @@ function autoScroll() {
 <template>
   <div id="container">
     <div class="demo-wrap" id="bg">
-      <img :src="regionBackground" class="demo-bg" alt="background">
+      <img :src="regionBackground" class="absolute top-0 left-0 min-h-screen blur-md max-w-none" alt="background">
       <div class="demo-content">
         <Map height="100vh" @current-region="changeBackground" />
       </div>
@@ -74,8 +73,8 @@ function autoScroll() {
     
     <div id="title-container">
       <h1 class="title">AMAZONÍA</h1>
-      <h1 class="title" style="font-size:7em;">al descubierto</h1>
-      <el-button @click="autoScroll" color="white" id="descriptionButton" plain><p>Repositorio de artistas visuales indígenas de la Amazonía peruana</p></el-button>
+      <h1 class="title" style="font-size:8vw;">al descubierto</h1>
+      <button @click="autoScroll" class=" bg-green-dark text-white rounded-lg px-4 py-3 hover:font-bold">Repositorio de artistas visuales indígenas de la Amazonía peruana</button>
     </div>
   </div>
 </template>
@@ -88,7 +87,7 @@ function autoScroll() {
   overflow: hidden;
 }
 
-#descriptionButton {
+/* #descriptionButton {
   font-size: 1.6em;
   background-color: #172601;
   border-radius: 10px;
@@ -98,10 +97,10 @@ function autoScroll() {
 #descriptionButton:hover {
   cursor: pointer;
   outline-color: white;
-}
+} */
 
 .title {
-  font-size: 13em;
+  font-size: 15vw;
   text-align: center;
   margin-top: 0;
   margin-bottom: 20px;
@@ -111,16 +110,6 @@ function autoScroll() {
   will-change: color;
   transition: color 300ms;
   font-family: "Protest Riot", sans-serif;
-}
-
-.demo-bg {
-  opacity: 0.8;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: auto;
-  min-width: 100vw;
-  filter: blur(10px);
 }
 
 .demo-wrap {
@@ -139,5 +128,9 @@ function autoScroll() {
 
 .demo-content {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 </style>

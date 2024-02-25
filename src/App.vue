@@ -67,11 +67,11 @@ function showMenu() {
   transition: all 0.3s;
   background-color: #D2D904;
   border-radius: 10%;
+}
 
-  &:hover {
-    transform: scale(1.1);
-    background-color: none;
-  }
+.button-menu:hover {
+  transform: scale(1.1);
+  background-color: none;
 }
 
 
@@ -88,11 +88,11 @@ function showMenu() {
   background-color: #D2D904;
   transform: translate(100%, -100%);
   transition: transform 0.3s ease-in-out;
-  &.active {
-    transform: translate(0, 0);
-  }
 }
 
+.menu.active {
+  transform: translate(0, 0);
+}
 
 .menu > ul {
   list-style: none;
@@ -114,15 +114,17 @@ function showMenu() {
   color: #172601;
   text-decoration: none;
   transition: transform 0.3s;
-  &:hover {
-    background-color: #172601;
-    cursor: pointer;
-    color: #D2D904;
-    font-weight: bolder;
-  }
-  &:hover > ul{
-    max-height: 300px;
-  }
+}
+
+.item-menu:hover {
+  background-color: #172601;
+  cursor: pointer;
+  color: #D2D904;
+  font-weight: bolder;
+}
+
+.item-menu:hover > ul {
+  max-height: 300px;
 }
 
 .item-menu > ul {
@@ -141,10 +143,10 @@ function showMenu() {
   color: #a7d5f2;
   text-decoration: none;
   transition: transform 0.3s;
-  &:hover {
-    background-color: #172601;
-    cursor: pointer;
-    color: #D2D904;
-  }
+}
+.subitem-menu:hover {
+  background-color: #172601;
+  cursor: pointer;
+  color: #D2D904;
 }
 </style>
