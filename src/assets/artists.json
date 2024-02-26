@@ -27,10 +27,16 @@
                 "page": "loreto/olinda"
             },
             {
-                "name": "Nereyda López",
+                "name": "Robert Sixto Saurin Pua",
                 "description": "Artista Plástico Amazónico \"el rey del pincel en Yurimaguas\",sus obras  reivindican las manifestaciones culturales inspiradas en las cosmovisiones amazónicas",
-                "image": "",
-                "page": "loreto/nereyda"
+                "image": "https://1.bp.blogspot.com/_FXyDrKp-ewo/R4UkbHHKESI/AAAAAAAAA1I/zXe5ItJdb60/s1600/SaurinA1.jpg",
+                "page": "loreto/robert"
+            },
+            {
+                "name": "Santiago Yahuarcani López",
+                "description": "Artista visual y escultor, su nombre en Uitoto es Komuilla Jitó que significa “El hijo del crecimiento.”",
+                "image": "https://elcomercio.pe/resizer/0zVN1l8S2gKn9MiiIH-H-JjPrJc=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/GMOAAEEKWRHI5JUUYAF6X7ROLM.jpeg",
+                "page": "loreto/santiago"
             }
         ]
     },

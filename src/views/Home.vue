@@ -32,7 +32,8 @@ onMounted(() => {
   const originalPosition = document.getElementById("title-container")!.getBoundingClientRect().top
   scrollValue = originalPosition;
   document.addEventListener("wheel", function(e: Event) {
-
+    if (titleElement === null || bgElement === null) return;
+    
     const delta = (e as WheelEvent).deltaY
     const nextScrollValue = scrollValue + delta
     if (nextScrollValue >= window.innerHeight) {

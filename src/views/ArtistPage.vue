@@ -1,28 +1,53 @@
+<script setup lang="ts"> 
+import { ref } from 'vue';
+import { useRoute } from 'vue-router';
+import artistData from '../assets/artistData.json';
+
+const route = useRoute();
+const artistsData = ref<DepartmentData>(artistData)
+const data = ref<ArtistData | null>(null)
+
+const departamento = route.params.departamento as string;
+const artista = route.params.artista as string;
+
+interface ArtistData {
+  name: string;
+  biography: string;
+  image: string;
+  works: { title: string; image: string }[];
+}
+
+interface DepartmentData {
+  [key: string]: {
+    [key: string]: ArtistData;
+  };
+}
+
+
+if (artistsData.value[departamento] && artistsData.value[departamento][artista]) {
+  data.value = artistsData.value[departamento][artista];
+} else {
+  console.error('No se encontraron datos para el departamento o artista especificado');
+}
+</script>
+
 <template>
-  <div class="container">
-    <h1>Brus Rubio Churay</h1>
-  </div>
-  <div class="content">
+  <h1>
+    {{ data?.name }}
+  </h1>
+  <div class=" flex flex-col-reverse md:flex-row justify-center align-middle items-center">
     <p>
-      Este es un relato de vida profundamente enraizado en la rica herencia cultural de la Amazonía peruana. Desde su infancia en la comunidad de Pucaurquillo, este pintor autodidacta fue moldeado por las historias de sus padres y la sabiduría de los ancianos de su pueblo. Su encuentro con el antropólogo Jürg Gasché desencadenó un viaje de autoexploración y aprendizaje que lo llevó a descubrir su pasión por la pintura como medio de expresar la mitología, la historia y la cultura de su gente. A través de sus obras, busca tanto celebrar la alegría cósmica y la belleza de su entorno natural como abordar temas sociales y políticos que afectan a su comunidad y a la Amazonía en general.
-      <br> 
-      A medida que su arte lo llevó más allá de su pueblo natal, este pintor encontró nuevas perspectivas en las grandes ciudades del mundo, integrando sus experiencias urbanas en su obra y compartiendo su cultura ancestral con audiencias globales. Su viaje desde la selva amazónica hasta lugares como Lima, París, Washington, La Habana y Shanghai ha enriquecido su visión artística y lo ha llevado a reinterpretar y afirmar su identidad cultural como un componente vital de la diversidad cultural mundial.
+      {{ data?.biography }}  
     </p>
-    <img class = "img" src="@/assets/brus.jpg" alt="">
+    <img class = "img" :src="data?.image">
   </div>
-  <div class="container">
-    <h2>Sus obras artísticas</h2>
-  </div>
+
+  <h2>Sus obras artísticas</h2>
+  
   <div class="carousel">
     <el-carousel :interval="4000" type="card" height="400px" style="width: 1000px;" autoplay>
-      <el-carousel-item>
-        <img src="https://static.wixstatic.com/media/43ce63_5fdebce863fe42dd98c6ec6631d5547d~mv2.gif" alt="">
-      </el-carousel-item>
-      <el-carousel-item>
-        <img src="https://static.wixstatic.com/media/43ce63_91c5d1628bee4c678443923fc3c6e9df~mv2.gif" alt="">
-      </el-carousel-item>
-      <el-carousel-item>
-        <img src="https://static.wixstatic.com/media/43ce63_17dd90c1a4834ed9bef162d49689ccfb~mv2.gif" alt="">
+      <el-carousel-item v-for="work in data?.works" :key="work.title">
+        <img :src="work.image" :alt="work.image">
       </el-carousel-item>
     </el-carousel>
   </div>
