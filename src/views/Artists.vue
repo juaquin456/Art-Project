@@ -18,9 +18,7 @@ regionArtist.value = arts.value[depto as keyof typeof arts.value] as { displayNa
 </script>
 
 <template>
-  <div class="container">
-   <h1 class="title">{{ regionArtist.displayName}}</h1>
-  </div>
+	<h1 class="pt-14 pb-2">{{ regionArtist.displayName}}</h1>
   <div class="content">
   	<ul class="team">
   		<li class="member co-funder" v-for="artist in regionArtist.artistas" :key="artist.name">

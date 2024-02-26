@@ -32,11 +32,11 @@ if (artistsData.value[departamento] && artistsData.value[departamento][artista])
 </script>
 
 <template>
-  <h1>
+  <h1 class=" pt-14 pb-8">
     {{ data?.name }}
   </h1>
   <div class=" flex flex-col-reverse md:flex-row justify-center align-middle items-center">
-    <p>
+    <p class=" w-3/4 md:w-1/2 text-justify px-8 py-9">
       {{ data?.biography }}  
     </p>
     <img class = "img" :src="data?.image">
@@ -45,7 +45,7 @@ if (artistsData.value[departamento] && artistsData.value[departamento][artista])
   <h2>Sus obras artísticas</h2>
   
   <div class="carousel">
-    <el-carousel :interval="4000" type="card" height="400px" style="width: 1000px;" autoplay>
+    <el-carousel :interval="4000" type="card" height="400px" class=" max-w-5xl w-full" autoplay>
       <el-carousel-item v-for="work in data?.works" :key="work.title">
         <img :src="work.image" :alt="work.image">
       </el-carousel-item>
@@ -56,12 +56,6 @@ if (artistsData.value[departamento] && artistsData.value[departamento][artista])
 
 
 <style scoped>
-
-h1 {
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
 h2 {
   font-size: 1.5em;
   padding-top: 20px;
@@ -75,12 +69,6 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 50px;
-}
-
-p {
-  width: 50%;
-  padding: 30px;
-  text-align: justify;
 }
 
 .img {
