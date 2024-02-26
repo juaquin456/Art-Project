@@ -32,7 +32,7 @@ if (artistsData.value[departamento] && artistsData.value[departamento][artista])
 </script>
 
 <template>
-  <h1 class=" pt-14 pb-8">
+  <h1 class=" pt-14 pb-8 font-black">
     {{ data?.name }}
   </h1>
   <div class=" flex flex-col-reverse md:flex-row justify-center align-middle items-center">
