@@ -42,7 +42,7 @@ if (artistsData.value[departamento] && artistsData.value[departamento][artista])
     <img class = "img" :src="data?.image">
   </div>
 
-  <h2>Sus obras artísticas</h2>
+  <h2 class="font-bold">Sus obras artísticas</h2>
   
   <div class="carousel">
     <el-carousel :interval="4000" type="card" height="400px" class=" max-w-5xl w-full" autoplay>

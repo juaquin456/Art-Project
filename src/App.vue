@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {ref} from 'vue'
+import { ref } from 'vue'
 
 const menuDisplayed = ref(false)
 
@@ -9,6 +9,15 @@ function showMenu() {
   menu.classList.toggle('active')
   button.classList.toggle('active')
   menuDisplayed.value = !menuDisplayed.value
+}
+
+function showSubitems(e: Event) {
+  const subitems = (e.target as HTMLElement).querySelector('ul') as HTMLElement
+  if (!subitems.style.maxHeight || subitems.style.maxHeight === '0px') {
+    subitems.style.maxHeight = '300px'
+  } else {
+    subitems.style.maxHeight = '0px'
+  }
 }
 
 </script>
@@ -24,30 +33,32 @@ function showMenu() {
 
   <div class="menu">
     <ul>
-      <li><router-link @click="()=>{showMenu()}" to="/" class="item-menu">Home</router-link></li>
+      <li><router-link @click="() => { showMenu() }" to="/" class="item-menu">Home</router-link></li>
       <li>
-        <div class="item-menu">
-        <span>Artistas</span>
-        <ul id="deptos">
-          <li>
-            <router-link @click="()=>{showMenu()}" to="/artistas/amazonas" class="subitem-menu">Amazonas</router-link>
-          </li>
-          <li>
-            <router-link @click="()=>{showMenu()}" to="/artistas/loreto" class="subitem-menu">Loreto</router-link>
-          </li>
-          <li>
-            <router-link @click="()=>{showMenu()}" to="/artistas/madre-de-dios" class="subitem-menu">Madre de Dios</router-link>
-          </li>
-          <li>
-            <router-link @click="()=>{showMenu()}" to="/artistas/san-martin" class="subitem-menu">San Martín</router-link>
-          </li>
-          <li>
-            <router-link @click="()=>{showMenu()}" to="/artistas/ucayali" class="subitem-menu">Ucayali</router-link>
-          </li>
+        <div class="item-menu" @click="showSubitems">
+          <span class="pointe-events-none">Artistas</span>
+          <ul id="deptos">
+            <li>
+              <router-link @click="() => { showMenu() }" to="/artistas/amazonas" class="subitem-menu">Amazonas</router-link>
+            </li>
+            <li>
+              <router-link @click="() => { showMenu() }" to="/artistas/loreto" class="subitem-menu">Loreto</router-link>
+            </li>
+            <li>
+              <router-link @click="() => { showMenu() }" to="/artistas/madre-de-dios" class="subitem-menu">Madre de
+                Dios</router-link>
+            </li>
+            <li>
+              <router-link @click="() => { showMenu() }" to="/artistas/san-martin" class="subitem-menu">San
+                Martín</router-link>
+            </li>
+            <li>
+              <router-link @click="() => { showMenu() }" to="/artistas/ucayali" class="subitem-menu">Ucayali</router-link>
+            </li>
           </ul>
         </div>
       </li>
-      <li><router-link @click="()=>{showMenu()}" to="/nosotros" class="item-menu">Nosotros</router-link></li>
+      <li><router-link @click="() => { showMenu() }" to="/nosotros" class="item-menu">Nosotros</router-link></li>
     </ul>
   </div>
   <RouterView />
@@ -94,7 +105,7 @@ function showMenu() {
   transform: translate(0, 0);
 }
 
-.menu > ul {
+.menu>ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -123,11 +134,11 @@ function showMenu() {
   font-weight: bolder;
 }
 
-.item-menu:hover > ul {
+.item-menu:hover>ul {
   max-height: 300px;
 }
 
-.item-menu > ul {
+.item-menu>ul {
   text-align: center;
   margin: 0;
   padding: 0;
@@ -144,9 +155,9 @@ function showMenu() {
   text-decoration: none;
   transition: transform 0.3s;
 }
+
 .subitem-menu:hover {
   background-color: #172601;
   cursor: pointer;
   color: #D2D904;
-}
-</style>
+}</style>
