@@ -52,7 +52,7 @@ function popUp(_work: { title: string; image: string; url: string; show?: boolea
 
   <h2 class="font-bold">Sus obras artísticas</h2>
   <div class="bg-black opacity-90 w-full h-full bottom-0 left-0 absolute z-50 items-center flex flex-col justify-center" v-if="showPopUp" @click="()=>{showPopUp = false;}">
-    <img :src="work.image" :alt="work.image" class=" max-h-lvh">
+    <img :src="work.image" :alt="work.image" class=" h-3/4">
     <h3 class="text-center font-semibold text-xl py-2">{{ work.title }}</h3>
     <p>
       Extracted from <a :href="work.url" target="_blank" rel="noopener noreferrer">{{ work.url }}</a>
@@ -94,7 +94,6 @@ h2 {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-bottom: 50px;
 }
 
 .el-carousel__item img {
