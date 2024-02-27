@@ -51,10 +51,29 @@
         },
         "gino": {
             "name": "Gino Ceccarelli",
-            "biography": "",
+            "biography": "Gino Ceccarelli nació en la amazonia el Perú, especificamnte en la región Loreto. Estudió en la Escuela Regional de Bellas Artes de Iquitos y luego lo continuó en la Escuela Nacional de Bellas Artes de Lima. Su postura no se centrá en un aspecto de la actividad artistica, si no que hunde sus raices en su biografía personal. A pesar de haber nacido en la Amazonia se crió en Lima, pero tiene origenes italianos. Su mundo gira al rededor de una complejidad de dualidades abruptas, donde la pintura es el puente y la intermediaria. Ceccarelli añade la técnica y las influencias de los antiguosnmaestros italianos a la repsentación de figuras miticas de la región Amazónica.",
             "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelliu-Paris-02-scaled.jpeg",
             "works": [
-
+                {
+                    "title": "Cabello fruta",
+                    "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Cabello-Frutal.jpeg",
+                    "url": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Cabello-Frutal.jpeg"
+                },
+                {
+                    "title": "Luna con flechas",
+                    "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Luna-Con-Flechas.jpeg",
+                    "url": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Luna-Con-Flechas.jpeg"
+                },
+                {
+                    "title": "Pescador con sirena",
+                    "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Pescador-Con-Sirena.jpeg",
+                    "url": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Pescador-Con-Sirena.jpeg"
+                },
+                {
+                    "title": "Chicas pintadas",
+                    "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Chicas-Pintadas.jpeg",
+                    "url": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelli-Chicas-Pintadas.jpeg"
+                }
             ]
         },
         "olinda": {
@@ -62,23 +81,80 @@
             "biography": "Nació en la comunidad shipiba de PaohYan, Bajo Ucayali, Loreto, el 13 de mayo de 1969. Sus padres son Miguel Silvano Flores y Dora Inuma Ramírez. Tiene 4 hijos. Es la primera de 11 hijos, por eso su nombre en shipibo es Reshen Jabe, que significa “El Primer Suspiro”. Cuando era niña tenía visiones y veía muchos diseños y colores en cada hoja, árbol, en el piso, veía Kené (nombre de los diseños) por todo lado. A la edad de 15 años, salí de mi comunidad a la ciudad de Pucallpa para buscar trabajo y ayudar a mi madre a sostener a la familia. Años después, llegué a Lima, trabajé muy duro luchando por mi cultura y difundiendo mis conocimientos sobre tela, lienzo, pared, escultura.",
             "image": "https://i0.wp.com/comandoplath.com/wp-content/uploads/2021/06/Olinda-mapa-ShA-web.jpg?w=400&ssl=1",
             "works": [
-
+                {
+                    "title": "La mujer pensante",
+                    "image": "https://www.caaap.org.pe/wp-content/uploads/2019/11/olinda-silvano-2-1024x768.jpg",
+                    "url": "https://www.caaap.org.pe/wp-content/uploads/2019/11/olinda-silvano-2-1024x768.jpg"
+                },
+                {
+                    "title": "Mapa del territorio shipibo konibo",
+                    "image": "https://artishockrevista.com/wp-content/uploads/2022/10/ccgarcilaso_2209_mayamaya_10.jpg",
+                    "url": "https://artishockrevista.com/wp-content/uploads/2022/10/ccgarcilaso_2209_mayamaya_10.jpg"
+                },
+                {
+                    "title": "La flor de vida",
+                    "image": "https://i.pinimg.com/736x/65/83/51/658351f6de9b78a5dc1db7c3c150c3a9.jpg",
+                    "url": "https://www.pinterest.com/pin/360710251410938959/"
+                },
+                {
+                    "title": "Indigena urbano(Colaboración)",
+                    "image": "https://i.pinimg.com/736x/2b/12/1c/2b121c9eb1266342845f8eb8125e5057.jpg",
+                    "url": "https://www.pinterest.com/pin/300193131417296468/"
+                }
             ]
         },
         "robert": {
             "name": "Robert Sixto Saurin Pua",
-            "biography": "",
+            "biography": "Robert Sixto Saurin Pua nació en Barranca Rio Marañon, Provincia de Datem en Loreto. Estudió artes plasticas en la Escuela Superior de Bellas Artes Victor Morey Peña - Iquitos. Actualmente vive en Yurimaguas donde tiene su taller y es visiitado por turistas y coleccionistas de arte. Ademas dirige una Escuela de Arte indígena Shawi en Fray Martín, escuela que es promovida por Terra Nova. Por otro lado se ecida a la investigación, a la fotografía y a escribir libros sobre la selva amazónica asi como sobre el resate d elas culturas vivas de los pueblos indígenas. Sus obras tienen prestigio nacional e internacional con exposiciones dentro del pais asi como en el extrajero. En la estelización de formas, la original propuesta plástica de Saurín es motivo de orgullo para la pitura amazónica.",
             "image": "https://1.bp.blogspot.com/_FXyDrKp-ewo/R4UkbHHKESI/AAAAAAAAA1I/zXe5ItJdb60/s1600/SaurinA1.jpg",
             "works": [
-
+                {
+                    "title": "Rostro de Ayaymama",
+                    "image": "https://live.staticflickr.com/2638/3970417890_5c5ac53226_z.jpg",
+                    "url": "https://www.flickr.com/photos/hgcharing/3970417890/in/album-72157622366131421/"
+                },
+                {
+                    "title": "La toma de Wayus",
+                    "image": "https://live.staticflickr.com/3428/3970441574_8a0613e575_b.jpg",
+                    "url": "https://www.flickr.com/photos/hgcharing/3970441574/in/album-72157622366131421/"
+                },
+                {
+                    "title": "Ventana de entrada al mundo subconciente",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.18169-9/11012544_10152832831121464_746098773522693120_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=4dc865&_nc_eui2=AeFOoA9gsJdX-NlwXUmMjATLnhoxJN4KTEGeGjEk3gpMQU29NVx8_f4kveVJMm8zq6sBwlEqfcqRj3x4ylwm8UMc&_nc_ohc=v_wLiVxKsiIAX_Wud4X&_nc_ht=scontent.flim38-1.fna&oh=00_AfCaD2SI0S65Kq1MEp8-aVjM7SbxNldgMw1HUIAnuSSSSg&oe=66056782",
+                    "url": "https://www.facebook.com/Galeria.Delbarrio/posts/obra-del-artista-roberto-sixto-saur%C3%ADn/10153054736561464/"
+                },
+                {
+                    "title": "Guardianes del Bosque",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.18169-9/10942489_10152832830311464_8720211171682505906_n.jpg?stp=dst-jpg_r270&_nc_cat=111&ccb=1-7&_nc_sid=4dc865&_nc_eui2=AeHx6LCSBMVrKEzWw-eMNF8mkFWs2Z2OEzKQVazZnY4TMiNYF3Igy-bQFcUokjW59jny34WbIuQFCByMMUzOnFom&_nc_ohc=LkwCk9e1B0YAX_iLBEz&_nc_ht=scontent.flim38-1.fna&oh=00_AfBMP1G1uyGaiAPqBR01K4UAvM9bCMkjNi0OYt9_Vz9gIg&oe=66058A95",
+                    "url": "https://www.facebook.com/photo/?fbid=10152832830311464&set=a.10152832829756464"
+                }
             ]
         },
         "santiago": {
             "name": "Santiago Yahuarcani López",
-            "biography": "",
+            "biography": "Santiago Yahuarcani nació en Pucaurquillo, Loreto Perú en el año 1961. E s un pintor y escultor autodidacta y líder de los pueblos Uitoto  y Bora del río Ampiyacu. Ha dedicado su vida al arte y la narración como una forma de expresión. Mediante sus obras nos cuenta y nos acerca al rico y complejo mundo espiritual de los uitotos. Su familia forma parte de los sobrevivientes al genocidio cauchero. Sus obras forman parte del Museo de Arte de Lima(MALI), Lima; el Museo Nacional Centro de Arte Reina Sofia(MNCARS), Madrid; y del Van Abbemuseum, Eindhoven. Junto a su esposa Nereyda Lopez han realizado exposiciones en el Perú y en paises como China, Inglterra, EE.UU., Francia, etc. Ademas son padres del destacado artista Rember Yahuarcani.",
             "image": "https://elcomercio.pe/resizer/0zVN1l8S2gKn9MiiIH-H-JjPrJc=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/GMOAAEEKWRHI5JUUYAF6X7ROLM.jpeg",
             "works": [
-
+                {
+                    "title": "Espíritu delfín trae medicina contra el COVID-19",
+                    "image": "https://insiteart.org/uploads/images/syahuarcani_03.png",
+                    "url": "https://insiteart.org/es/hilo-com%C3%BAn/conversations/santiago-yahuarcani-miguel-a-l%C3%B3pez#gallery-text-2"
+                },
+                {
+                    "title": "Sesión de ajo sacha",
+                    "image": "https://insiteart.org/uploads/images/syahuarcani_02.png",
+                    "url": "https://insiteart.org/es/hilo-com%C3%BAn/conversations/santiago-yahuarcani-miguel-a-l%C3%B3pez#gallery-text-1"
+                },
+                {
+                    "title": "El vuelo de Mamá Martha II",
+                    "image": "https://insiteart.org/uploads/images/syahuarcani_01.png",
+                    "url": "https://insiteart.org/es/hilo-com%C3%BAn/conversations/santiago-yahuarcani-miguel-a-l%C3%B3pez#gallery-text-3"
+                },
+                {
+                    "title": "El COVID-19 pelea contra los Abuelos",
+                    "image": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/2J2KZE7OERGK5OEH5KQZID3RAU.jpg",
+                    "url": "https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/2J2KZE7OERGK5OEH5KQZID3RAU.jpg"
+                }
             ]
         }
     },
