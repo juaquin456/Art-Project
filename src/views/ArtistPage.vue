@@ -95,7 +95,6 @@ h2 {
 
 .el-carousel__item:nth-child(2n + 1) {
   /* background-color: #d3dce6; */
-  border-radius: 8px;
-  
+  border-radius: 8px; 
 }
 </style>
