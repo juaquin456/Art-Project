@@ -7,24 +7,46 @@
             "works": [
                 {
                     "title": "El viaje ecológico",
-                    "image": "https://static.wixstatic.com/media/43ce63_5fdebce863fe42dd98c6ec6631d5547d~mv2.gif"
+                    "image": "https://static.wixstatic.com/media/43ce63_5fdebce863fe42dd98c6ec6631d5547d~mv2.gif",
+                    "url": "https://www.brusrubio.com/2023?lightbox=dataItem-lsaot86l"
                 },
                 {
                     "title": "Danza, medicina del alma",
-                    "image": "https://static.wixstatic.com/media/43ce63_91c5d1628bee4c678443923fc3c6e9df~mv2.gif"
+                    "image": "https://static.wixstatic.com/media/43ce63_91c5d1628bee4c678443923fc3c6e9df~mv2.gif",
+                    "url": "https://www.brusrubio.com/2023?lightbox=dataItem-lsaot86l1"
                 },
                 {
                     "title": "La minga, compartiendo la cena",
-                    "image": "https://static.wixstatic.com/media/43ce63_e184842dbcf84b5087f88a4be1f13e02~mv2.gif"
+                    "image": "https://static.wixstatic.com/media/43ce63_e184842dbcf84b5087f88a4be1f13e02~mv2.gif",
+                    "url": "https://www.brusrubio.com/2008?lightbox=dataItem-iwu1e8qk"
                 }
             ]
         },
         "rember": {
             "name": "Rember Yahuarcani",
-            "biography": "Nació en 1985 en la comunidad nativa \"La colonia\" en el distrito de Pevas, Loreto, un lugar al cual se llega despues de 15 o 18 horas de viaje por el Rio Amazonas. Es hijo de Santiago Yahuarcani, líder indígena, agricultor, pintor y escultor autodidacta. Es descendiente de la nación uitoto, del clan Aymenú por su abuela paterna, y de la nación cocama, del Clan Jaguar, por su abuelo paterno.",
+            "biography": "Rember Yahuarcani Lopez nació en 1985 en la comunidad nativa \"La colonia\" en el distrito de Pevas, Loreto, un lugar al cual se llega despues de 15 o 18 horas de viaje por el Rio Amazonas. Es hijo de Santiago Yahuarcani, líder indígena, agricultor, pintor y escultor autodidacta. Es descendiente de la nación uitoto, del clan Aymenú por su abuela paterna, y de la nación cocama, del Clan Jaguar, por su abuelo paterno. Ha sido parte del consejo consultivo del Proyecto Bicentenario. Ha realizado exposiciones individuales en Perú y Estados Unidos, y exposiciones colectivas en Ecuador, Brasil, Dinamarca, Polonia y el Reino Unido. Ha participado con ilustraciones en los libros El sueño de Buinaima(Alfaguara), Fidoma y el bosque de estrellas(Arsam) y La lluvia y el verano(2015:Graph Ediciones). Ha ganado premios tales como: La segunda Bienal Intercontinental de Arte Indígena, Ancestral o Milenario de Quito, Ecuador(2008); Segundo lugar en el IX Concurso Nacional de Pintura del BCRP, con su obra <<Los primeros humanos coquistan a la mujer Arco Iris, la acomodan para que el cielo no caiga a la tierra>>(2018).",
             "image": "https://elcomercio.pe/resizer/PLHR2_0zGRrNlo2gG34bdKkS5lE=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VKBMT7RSJRBP3MZVSH2AAU4A5M.jpg",
             "works": [
-
+                {
+                    "title": "El territorio de los abuelos",
+                    "image": "https://cdn.forbes.pe/2022/11/Artista-visual-1.jpg",
+                    "url": "https://cdn.forbes.pe/2022/11/Artista-visual-1.jpg"
+                },
+                {
+                    "title": "Cada arte su tiempo",
+                    "image": "https://cdn.forbes.pe/2022/11/Rember-Yuhuarcani-pintura.jpg",
+                    "url": "https://cdn.forbes.pe/2022/11/Rember-Yuhuarcani-pintura.jpg"
+                },
+                {
+                    "title": "Bajo la lluvia",
+                    "image": "https://cdn.forbes.pe/2022/11/Rember-Yuhuarcani-artista-visual.jpg",
+                    "url": "https://cdn.forbes.pe/2022/11/Rember-Yuhuarcani-artista-visual.jpg"
+                },
+                {
+                    "title": "Noche en el Rio Ampiyacú",
+                    "image": "https://www.coolt.com/uploads/s1/28/80/4/noche-en-el-rio-ampiyacu-rember-yahuarcani.jpeg",
+                    "url": "https://www.coolt.com/uploads/s1/28/80/4/noche-en-el-rio-ampiyacu-rember-yahuarcani.jpeg"
+                }
             ]
         },
         "gino": {
