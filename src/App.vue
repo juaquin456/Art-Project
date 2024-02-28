@@ -59,6 +59,7 @@ function showSubitems(e: Event) {
         </div>
       </li>
       <li><router-link @click="() => { showMenu() }" to="/nosotros" class="item-menu">Nosotros</router-link></li>
+      <li><router-link @click="() => { showMenu() }" to="/bibliografia" class="item-menu">Bibliografia</router-link></li>
     </ul>
   </div>
   <RouterView />
