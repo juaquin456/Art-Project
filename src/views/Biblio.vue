@@ -203,12 +203,12 @@ function formattedReference(reference: BibliografiaItem) {
 </script>
 
 <template>
-    <h1 class="py-10 font-bold">Bibliografia</h1>
+    <h1 class="py-10 font-bold">Bibliografía</h1>
     <ul class="flex flex-col items-center justify-center gap-5">
         <li v-for="reference in bibliografia" :key="reference.titulo" class="py-10 text-3xl w-3/4 bg-green-dark px-4"  style="text-justify">
             {{ formattedReference(reference) }}
             <span  v-if="reference.enlace !== ''">
-                Extraido de 
+                Extraído de 
                 <a :href="reference.enlace" target="_blank" class="text-blue-500">{{ reference.enlace }}</a>
             </span>
         </li>
