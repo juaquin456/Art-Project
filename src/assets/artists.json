@@ -9,31 +9,37 @@
                 "page": "loreto/brus"
             },
             {
-                "name": "Rember Yahuarcani",
-                "description": "Rember Yahuarcani, un artista visual, escritor y activista del pueblo Uitoto Aímen en la Amazonia peruana, quien presentó su primera exposición en solitario en Estados Unidos el 31 de diciembre del 2022, ‘USUMA, spirits of power’.",
-                "image": "https://elcomercio.pe/resizer/PLHR2_0zGRrNlo2gG34bdKkS5lE=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VKBMT7RSJRBP3MZVSH2AAU4A5M.jpg",
-                "page": "loreto/rember"
-            },
-            {
-                "name": "Gino Ceccarelli",
-                "description": "Es un reconocido artista plástico loretano, además de director del Instituto Nacional de Cultura de Loreto y, uno de los intelectuales más lúcidos y mordaces de la Amazonía peruana.",
+                "name": "Gino Ceccarelli Bardales",
+                "description": "Artista plástico, investigador, diseñador gráfico, ilustrador y escultor. Además de haber sido director del Instituto Nacional de Cultura de Loreto.",
                 "image": "https://anturiongallery.com/wp-content/uploads/2023/11/Gino-Ceccarelliu-Paris-02-scaled.jpeg",
                 "page": "loreto/gino"
             },
             {
+                "name": "Nereyda López",
+                "description": "Artista uitoto,  en su arte emplea técnicas y materiales usados tradicionalmente en la vida diaria de la etnia uitoto, sobre todo fibras y otros elementos vegetales.",
+                "image": "https://bienaldecusco.art/wp-content/uploads/2021/11/Nereyda_Lopez4.jpg",
+                "page": "loreto/nereyda"
+            },
+            {
                 "name": "Olinda Silvano Inuma",
-                "description": " Artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana. Su nombre en chipibo es Reshen Jabe  que significa \"El pimer suspiro\"",
+                "description": "Artista amazónica, del pueblo shipibo, maestra del kené y sanadora peruana. Su nombre en chipibo es Reshen Jabe  que significa \"El pimer suspiro\"",
                 "image": "https://i0.wp.com/comandoplath.com/wp-content/uploads/2021/06/Olinda-mapa-ShA-web.jpg?w=400&ssl=1",
                 "page": "loreto/olinda"
             },
             {
+                "name": "Rember Yahuarcani",
+                "description": "Artista visual, escritor y activista del pueblo Uitoto Aímen en la Amazonia peruana. En sus obras de arte transmite la valoración de la memoria e identidad del clan aiumen mediante lienzos y murales.",
+                "image": "https://elcomercio.pe/resizer/PLHR2_0zGRrNlo2gG34bdKkS5lE=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/VKBMT7RSJRBP3MZVSH2AAU4A5M.jpg",
+                "page": "loreto/rember"
+            },
+            {
                 "name": "Robert Sixto Saurin Pua",
-                "description": "Artista Plástico Amazónico \"el rey del pincel en Yurimaguas\",sus obras  reivindican las manifestaciones culturales inspiradas en las cosmovisiones amazónicas",
-                "image": "https://1.bp.blogspot.com/_FXyDrKp-ewo/R4UkbHHKESI/AAAAAAAAA1I/zXe5ItJdb60/s1600/SaurinA1.jpg",
+                "description": "Artista plástico Amazónico \"el rey del pincel en Yurimaguas\",sus obras reivindican las manifestaciones culturales inspiradas en las cosmovisiones amazónicas.",
+                "image": "http://bp1.blogger.com/_FXyDrKp-ewo/R4UkbHHKESI/AAAAAAAAA1I/zXe5ItJdb60/s1600/SaurinA1.jpg",
                 "page": "loreto/robert"
             },
             {
-                "name": "Santiago Yahuarcani López",
+                "name": "Santiago Yahuarcani",
                 "description": "Artista visual y escultor, su nombre en Uitoto es Komuilla Jitó que significa “El hijo del crecimiento.”",
                 "image": "https://elcomercio.pe/resizer/0zVN1l8S2gKn9MiiIH-H-JjPrJc=/1200x900/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/GMOAAEEKWRHI5JUUYAF6X7ROLM.jpeg",
                 "page": "loreto/santiago"
@@ -43,47 +49,60 @@
     "ucayali": {
         "displayName": "Ucayali",
         "artistas": [
-            {
-                "name": "Harry Pinedo Valera",
-                "description": "Inin metsa (Harry Pinedo Valera) es un artista originario Jonikon de la comunidad Shipibo-conibo de la ciudad Pucallpa, Perú. En sus pinturas plasma con estilo propio la magia y el misterio de los animales y las leyendas de la Amazonía",
-                "image": "https://i0.wp.com/thedesigner.se/wp-content/uploads/2021/07/FOTO-2-Harry.jpeg?w=868&ssl=1",
-                "page": "ucayali/harry"
-            },
-            {
-                "name": "Roldán Pinedo",
-                "description": "Shoyan Shëca (Roldán Pinedo), artista originario Jonikon, nació en la comunidad Shipibo-conibo de San Francisco de Yarinacocha. Su arte, basado en la mitología shipiba, retrata las costumbres y vivencias de su pueblo, visiones de ayahuasca y la flora y fauna de la naturaleza amazónica",
-                "image": "https://limapuzzle.com/wp-content/uploads/2022/02/Roldan.jpg",
-                "page": "ucayali/roldan"
-            },
+    
             {
                 "name": "Cordelia Sánchez",
-                "description": "Cordelia sanchez es una integrante de la comunidad nativa San Francisco en Ucayali",
-                "image": "https://insiteart.org/uploads/images/_medium/Cordelia-Sanchez.png",
+                "description": "Es una integrante de la comunidad nativa San Francisco en Ucayali. Sus pinturas estan basadas en plantas medicinales.",
+                "image": "/sanchez.png",
                 "page": "ucayali/cordelia"
             },
             {
+                "name": "Dimas Paredes Armas",
+                "description": "Destacado díscipulo del pintor Pablo Amaringo, en sus pinturas resalta la naturaleza, especialmente las plantas a las que se aribuye poderes.",
+                "image": "https://scontent.flim9-1.fna.fbcdn.net/v/t31.18172-8/13063323_1720952928173363_5160619017613659388_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_ohc=bdQHPjaflQ4AX-d7SoD&_nc_ht=scontent.flim9-1.fna&oh=00_AfCJ2VKBjWCppphOwK6-1tKpVh4HpPZCzpV6xD4_FYtRDw&oe=6606FBDD",
+                "page": "ucayali/dimas"
+            },
+            {
+                "name": "Diana Riesco Lind",
+                "description": "Artista amazónica multidiciplinaria, realiza pinturas al óleo, bordado con estilo libre, cerámica con arcilla amazónica y video arte o arte digital.",
+                "image": "http://dianariescolind.com/wp-content/uploads/2020/06/dIANA-RIESDCO-lIND-kUMIKO-RETRATO-1360x907.jpg",
+                "page": "ucayali/diana"
+            },
+            {
                 "name": "Elena Valera Vázquez",
-                "description": "Pionera de la pintura Shipibo-Konibo contemporánea en Lima, actividad que, como ella misma relata, inició siendo muy joven.",
+                "description": "Pionera de la pintura Shipibo-Konibo contemporánea en Lima, actividad que, como ella misma relata, inició siendo muy joven. Su nombre en chipibo es Bawan Jisbe.",
                 "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9jspu-GhtvmyRWB73JWMiQhLurtoypJSFaQ&usqp=CAU",
                 "page": "ucayali/elena"
             },
             {
+                "name": "Harry Pinedo Valera",
+                "description": "Artista originario Jonikon de la comunidad Shipibo-conibo de la ciudad Pucallpa, Perú. En sus pinturas plasma con estilo propio la magia, el misterio de los animales y las leyendas de la Amazonía.",
+                "image": "https://i.ytimg.com/vi/_SZOz35MYdQ/maxresdefault.jpg",
+                "page": "ucayali/harry"
+            },
+            {
                 "name": "Lastenia Canayo",
-                "description": "Artista amazónica, pertenece al pueblo shipibo-konibo. Su nombre nativo es Pecon Quena, \"la que llama a los colores\".",
-                "image": "https://elcomercio.pe/resizer/_J71l5Lu73sZNWxpLrrdBcc8Rx0=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/V3B5MJ2M2VFZVMMBFE5JEFV7IE.jpg",
+                "description": "Artista amazónica, pertenece al pueblo shipibo-konibo. Su nombre nativo es Pecon Quena, significa \"la que llama a los colores\".",
+                "image": "http://academictroll.weebly.com/uploads/1/1/0/5/11057015/1419428601.png",
                 "page": "ucayali/lastenia"
             },
             {
-                "name": "Dimas Paredes Armas",
-                "description": "Pintor peruano",
-                "image": "https://scontent-lim1-1.xx.fbcdn.net/v/t31.18172-8/13063323_1720952928173363_5160619017613659388_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeFLVadp9jPfHxDYLoPQ6bKj6Pf_22eywCbo9__bZ7LAJiZqy6msuUArDlDAfSjvsyyGPztempVKesqkSmVsnfX6&_nc_ohc=Q31dNtPgDxcAX9kcYG7&_nc_ht=scontent-lim1-1.xx&oh=00_AfCVNzAO0qrneWEOOd4Tbsej8-h_sSasMegEJoQ8EI5KRg&oe=6603075D",
-                "page": "ucayali/dimas"
+                "name": "Roldán Pinedo",
+                "description": "Artista originario Jonikon, nació en la comunidad Shipibo-conibo de San Francisco de Yarinacocha. Su arte esta basado en la mitología shipiba, retrata las costumbres y vivencias de su pueblo, visiones de ayahuasca y la flora y fauna de la naturaleza amazónica",
+                "image": "https://assets-global.website-files.com/5ffbad516988fca9eba40601/622e6e756bc6a74bd2cfbcf4_IMG_3879.jpg",
+                "page": "ucayali/roldan"
             }
         ]
     },
     "san-martin": {
         "displayName": "San Martín",
         "artistas": [
+            {
+                "name": "Amelia Weiss",
+                "description": "Pintora y pionera en el uso acrílico en la escultura peruana. Realizó sus estudios superiores en la  Escuela Nacional de Bellas Artes de Lima.",
+                "image": "https://live.staticflickr.com/2303/1677352042_b2014b0083_b.jpg",
+                "page": "san-martin/amelia"
+            },
             {
                 "name": "Jorge Luis Tenazoa Torrejón",
                 "description": "Artista plástico y diseñador artistico. Su arte gira alrededor de diversos paisajes y costumbres propias de la selva peruana.",
@@ -92,32 +111,26 @@
             },
             {
                 "name": "José Asunción Arteaga Jiménez",
-                "description": "Se interesó por la pintura desde corta edad, se formó autodidácticamente así como recogiendo experiencias y consejos de artistas profesionales. Al principio cautivado por diversos géneros pictóricos. Fué premiado, reconocido y exponente por invitación junto a grandes de la plástica peruana",
+                "description": "Reconocido artista plástico autodidacta, que combina la belleza de los bosques amazónicos con el lado místico que envuelve a la naturaleza.",
                 "image": "https://www.cayomecenas.net/I1205/FOTOGRAFIA.jpg",
                 "page": "san-martin/jose"
             },
             {
                 "name": "Juan Echenique",
-                "description": "Estudió pintura en la Escuela Nacional de Bellas Artes de Lima, egresando en 1994. ",
-                "image": "https://www.cayomecenas.net/I010/retrato.jpg",
+                "description": "Pintor destacado de la región San Martín, quien considera que llegó hasta donde esta, no por voluntad sino por una vocación que se fue desarrollando. Su arte se inspira en las primeras vanguardias, ya que posee elementos del cubismo y el expresionismo.",
+                "image": "https://scontent.flim8-1.fna.fbcdn.net/v/t39.30808-6/411687369_10230088248463510_3758791501579208174_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9c7eae&_nc_ohc=CfAtGheBeNQAX_C9-9R&_nc_ht=scontent.flim8-1.fna&oh=00_AfDjRcehI0QvNq6mJOA6goS3faYhvKo15s-ajN_D9nOZIQ&oe=65E3C4B1",
                 "page": "san-martin/juan"
             },
             {
-                "name": "Amelia Weiss",
-                "description": "Amelia Weiss es pintora y pionera en el uso acrílico en la escultora peruana. Realizó sus estudios superiores en la  Escuela Nacional de Bellas Artes de Lima, donde ganó el Premio de Excelencia Escuela Nacional de Bellas Artes en la especialidad de escultura.",
-                "image": "https://live.staticflickr.com/2303/1677352042_b2014b0083_b.jpg",
-                "page": "san-martin/amelia"
-            },
-            {
-                "name": "Yolanda Raceto Ruiz",
-                "description": "",
+                "name": "Yolanda Razzeto Ruiz",
+                "description": "Artista plástica de la escuela impresionista, trabaja al óleo las luces y las sombras, y utiliza su espátula para impregnar colores fuertes como el rojo y el azul a cada una de sus creaciones.",
                 "image": "https://pbs.twimg.com/profile_images/441047319799005184/nEc0Uf1v_400x400.jpeg",
                 "page": "san-martin/yolanda"
             },
             {
                 "name": "Watsildi López Cachique",
-                "description": "Para Watsildi López Cachique, los maestros de las artes plásticas sanmartinenses fueron la mayor motivación e inspiración. Tenía 15 años cuando los conoció.",
-                "image": "https://scontent.flim1-2.fna.fbcdn.net/v/t39.30808-6/394635239_7129197753832979_1364229547205453351_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeEHIANaILgoXOXLCMBdOHcoIGwPMpgRPRIgbA8ymBE9EtzszOYpYZQjArFgWi0K8aqemnSENyKj9SzdePa4U_1X&_nc_ohc=iQ55qqqNlvMAX9Bajkz&_nc_ht=scontent.flim1-2.fna&oh=00_AfAapwrXhFQSgIymxpbDZ6DZpFeQPztlMUi1-aCIEzNVIw&oe=65E16804",
+                "description": "Artista visual, gestor cultural, licenciado en educación con una amplia experiencia pictórica y laboral. Egresado de la Escuela Superior de Formación Artística de Baguas en la especialidad de Artes Plásticas.",
+                "image": "https://scontent.flim13-1.fna.fbcdn.net/v/t39.30808-6/358139002_6749296525156439_3770289682990567204_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=RCZvnVs5V-gAX8KSthO&_nc_ht=scontent.flim13-1.fna&oh=00_AfDEZH-otCZaNu9h6TtFFYwwVtMaycBuoJQUSEsFfXgHTA&oe=65E46E07",
                 "page": "san-martin/watsildi"
             }
         ]
@@ -126,19 +139,47 @@
         "displayName": "Amazonas",
         "artistas": [
             {
-                "name": "Pablo Chávez Cruz",
-                "description": "Pablo Chávez Cruz: Es un reconocido artesano de la región de Amazonas en Perú. Se dedica a la elaboración de hermosos productos utilitarios en base a fibra vegetal de bambú nativo.",
-                "image": ""
-            },
-            {
-                "name": "Miguel Huamán Revilla",
-                "description": "Nació en 1977 en el anexo Pircapampa, distrito de Santo Tomás, provincia de Luya. A los 12 años aprendió, de manera autodidacta, a tallar madera y piedra. Con las maderas de nogal, ishpingo, cedro y caoba, talla obras finas, policromadas con acrílico y con pigmentos naturales.",
-                "image": ""
+                "name": "Gerardo Petsaín Sharup",
+                "description": "Destacado artista awajún y wampís cuya obra refleja los universos míticos y las narraciones ancestrales de estos pueblos indígenas. A través de más de 30 obras, Petsaín captura la esencia de los awajún y wampís, explorando diferentes temporalidades y espacialidades donde seres humanos y guardianes invisibles coexisten en un mismo territorio. Sus pinturas representan la cosmovisión ancestral, fusionando el mundo mítico con la contemporaneidad y destacando la importancia del respeto por el bosque amazónico y sus recursos.",
+                "image": "/petsain.png",
+                "page": "amazonas/gerardo"
             }
         ]
     },
     "madre-de-dios": {
         "displayName": "Madre de Dios",
-        "artistas": []
+        "artistas": [
+            {
+                "name": "Yesica Patiachi Tayori",
+                "description": "Líder indígena del pueblo Harakbut, nacida en Puerto Luz, Perú. Es docente en la Institución Educativa Santa Rosa de Puerto Maldonado y defensora de la cultura indígena a través de la literatura y la pintura.",
+                "image": "https://www.caaap.org.pe/wp-content/uploads/2021/03/Yesica_Patiachi-980x551.jpg",
+                "page": "madre-de-dios/yesica"
+            },
+            {
+                "name": "Luis Tayori Kendero",
+                "description": "Líder destacado del pueblo Harakbut de Madre de Dios, en la Amazonía peruana. Su trabajo se centra en la defensa de los derechos indígenas y la preservación de la cultura ancestral.",
+                "image": "https://www.religiondigital.org/2019/06/15/image-2019-06-15.jpg?hash=9400c886c6029194f20b12fe7fb0aa77439075ae",
+                "page": "madre-de-dios/luis"
+            },
+            {
+                "name": "Wili Corisepa",
+                "description": "Artista harakbut y activista amazónico de Shintuya, trabaja actualmente en Puerto Maldonado creando murales y piezas gráficas que reflejan su profundo amor por la naturaleza y la cultura de su pueblo. Como defensor del bosque y su herencia, su presencia en la ciudad es tanto creativa como inspiradora.",
+                "image": "https://i0.wp.com/www.actualidadambiental.pe/wp-content/uploads/2018/01/8.-Wili_Corisepa_2_A.jpg",
+                "page": "madre-de-dios/wili"
+            },
+            {
+                "name": "Huber Tayori Takori",
+                "description": "Parte del grupo artístico Etochime, dedicado a resaltar la importancia de los bosques y la cultura Arakbut. Reconocido por su compromiso con la defensa del territorio indígena y la promoción cultural, Takori es una figura destacada en la escena cultural regional.",
+                "image": "https://scontent.flim41-1.fna.fbcdn.net/v/t39.30808-6/380815478_330562022765155_8758930241518032451_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeG3vkApqn6asYmSI5PNsftNQLKHpvYjexBAsoem9iN7ENs-iKpRUoOofz20Cc7gC_sp0nhSvx8d-RJECeJ8p-Z7&_nc_ohc=VkD8Eo6jy1sAX_Jb-zq&_nc_ht=scontent.flim41-1.fna&oh=00_AfBsNFU7pAV7xl20VHlUk2paeN028LE4t7Bxl34t_of5aA&oe=65E27457",
+                "page": "madre-de-dios/huber"
+            },
+            {
+                "name": "Percy Tayori Kendero",
+                "description": "Del grupo Etochime en Madre de Dios, Perú, es un artista autodidacta comprometido con la preservación de la cultura Harakbut. Su arte aborda la identidad indígena y temas amazónicos.",
+                "image": "https://www.ccincagarcilaso.gob.pe/wp-content/uploads/2023/09/CUADRO-9-1.png",
+                "page": "madre-de-dios/percy"
+            }
+
+        ]
     }
 }
