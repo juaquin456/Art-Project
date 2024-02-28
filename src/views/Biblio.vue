@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { onMounted } from 'vue';
 
 interface BibliografiaItem {
   autor: string;
@@ -195,7 +194,7 @@ const bibliografia: BibliografiaItem[] = [
 ].sort((a, b) => a.autor.localeCompare(b.autor));
 
 function formattedReference(reference: BibliografiaItem) {
-    const { autor, año, titulo, fuente, enlace } = reference;
+    const { autor, año, titulo, fuente } = reference;
     const font = fuente ? `${fuente}.` : '';
     return `${autor} (${año}). ${titulo} ${font}`;
 }
