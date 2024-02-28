@@ -194,26 +194,26 @@
         "cordelia": {
             "name": "Cordelia Sánchez",
             "biography": "Cordelia Sánchez nació en la comunidad nativa de San Francisco en Ucayali. Debido a que emigró a Lima, ahora se encuentra residiendo en la comunidad de Cantagallo - Rimac, Perú. Ha sido participe en la creación de muchas murales tales como murales para el MALI, murales en la embajada de Estados Unidos y en la ex embajada de Alemania. Por otro lado, participó del primer taller \"Pinceladas indígenas: Pesin Kate e Inin Soi en vivo\" de la Universidad de Lima el cual se llevo acabo entre noviembre y diciembre dl 2023, donde se encargó de dictar el taller junto a David Ramirez del pueblo Shipibo Konibo.",
-            "image": "https://1.bp.blogspot.com/_FXyDrKp-ewo/R4UkbHHKESI/AAAAAAAAA1I/zXe5ItJdb60/s1600/SaurinA1.jpg",
+            "image": "/sanchez.png",
             "works": [
                 {
                     "title": "Feliz san valentin",
-                    "image": "https://www.instagram.com/p/CoqnkyhLfEZ/",
+                    "image": "/cordelia-1.jpeg",
                     "url": "https://www.instagram.com/p/CoqnkyhLfEZ/"
                 },
                 {
                     "title": "El arbol del diseño",
-                    "image": "https://www.instagram.com/p/CPRikBshE8S/",
+                    "image": "/cordelia-2.jpg",
                     "url": "https://www.instagram.com/p/CPRikBshE8S/"
                 },
                 {
                     "title": "Los enamorados",
-                    "image": "https://www.instagram.com/p/CPRiZiih2Xx/",
+                    "image": "/cordelia-3.jpg",
                     "url": "https://www.instagram.com/p/CPRiZiih2Xx/"
                 },
                 {
                     "title": "El guardian de la selva",
-                    "image": "https://www.instagram.com/p/CPRh6W1BpI7/",
+                    "image": "/cordelia-4.jpg",
                     "url": "https://www.instagram.com/p/CPRh6W1BpI7/"
                 }
             ]    
@@ -328,7 +328,7 @@
         },
         "lastenia": {
             "name": "Lastenia Canayo",
-            "biography": "Lastenia Canayo Garcia nació en la comunidad de Roroboya, Bajo Ucayali en el año 1962, pertenece a la comunidad Shipibo Konibo y su nombre en Shipibo es "Pecon quena" que sigifica "La llama a los colores". Desde pequeña aprendió a elaborar ceramicas con la enseñanza de su madre Metza Rahua(La que ve el sonido) y de su abuela. Durante los 2000, Lastenia Canayo y otras madres fueron convadas por el historiador  Pablo Macera para compartir y pintar los relatos que ellas les contaban a sus hijas, durante esta experiencia Lastenia compartió mas de 500 relatos sobre los espíritus de apariencia antropomorfa encargados de proteger a los animales y las plantas. Mediante sus pinturas, dibujos, cerámicas y bordados Lastenia representaba los Ibo, que vienen a ser los espíritus de las plantas y animales (conocidos como "dueños"). La originalidad del arte que realiza Lastenia la ha llevado a ser participe de diversas ferias tanto nacionales como internacionales, en paises como Brasil, Colombia y Estados Unidos. En el año 2014, Lastenia recibió un reconocimiento del Ministerio de Cultura como \"Personalidad meritoria de la cultura\" por su importante contribución a la cultura peruana.",
+            "biography": "Lastenia Canayo Garcia nació en la comunidad de Roroboya, Bajo Ucayali en el año 1962, pertenece a la comunidad Shipibo Konibo y su nombre en Shipibo es \"Pecon quena\" que sigifica \"La llama a los colores\". Desde pequeña aprendió a elaborar ceramicas con la enseñanza de su madre Metza Rahua(La que ve el sonido) y de su abuela. Durante los 2000, Lastenia Canayo y otras madres fueron convadas por el historiador  Pablo Macera para compartir y pintar los relatos que ellas les contaban a sus hijas, durante esta experiencia Lastenia compartió mas de 500 relatos sobre los espíritus de apariencia antropomorfa encargados de proteger a los animales y las plantas. Mediante sus pinturas, dibujos, cerámicas y bordados Lastenia representaba los Ibo, que vienen a ser los espíritus de las plantas y animales (conocidos como \"dueños\"). La originalidad del arte que realiza Lastenia la ha llevado a ser participe de diversas ferias tanto nacionales como internacionales, en paises como Brasil, Colombia y Estados Unidos. En el año 2014, Lastenia recibió un reconocimiento del Ministerio de Cultura como \"Personalidad meritoria de la cultura\" por su importante contribución a la cultura peruana.",
             "image": "http://academictroll.weebly.com/uploads/1/1/0/5/11057015/1419428601.png",
             "works": [
                 {
@@ -377,6 +377,321 @@
                     "title": "Pez gamitana",
                     "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_000808/tienda_000808_d7f0ed2f55313ea6e45ff172253ed03be0896d2f_producto_large_90.png",
                     "image": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_000808/tienda_000808_d7f0ed2f55313ea6e45ff172253ed03be0896d2f_producto_large_90.png"
+                }
+            ]
+        }
+    },
+    "san-martin": {
+        "amelia": {
+            "name": "Amelia Weiss",
+            "biography": "Nació en Moyobamba, San martín, Perú en el año 1926. Llevó clases de pintura y acuarela con los profesores Carlos Quízpes Asin, Ricaedo Grau y Brockie Stevenson, respectivamente. Además, estudió escultura en la Escuela Nacional de Bellas Artes de Lima, de donde egresó en 1964 con el Premio de Excelencia Escuela Nacional de Bellas Artes en la especialidad de escultura. Tiene  obras en difrentes lugaress de Lima desde 1958, teniendo una ultima presentación individual en el Centro Cultural de Miraflores - Sala Luis Miroquesada Garland en 1994 .Otras de sus obras estan desde el 2011 en el Museo de Arte del Centro Cultural de la Universidad Nacional Mayor de San Marcos, Lima-Perú y el Museo Pedro de Osma. También, tiene obras en el extrajero, en paises como Estados Unidos, Brasil y Alemania, por ejemplo en las oficinas de la OEA en Brasil, se encuentra un cuadro de grandes proporciones.",
+            "image": "https://live.staticflickr.com/2303/1677352042_b2014b0083_b.jpg",
+            "works": [
+                {
+                    "title": "Mujer con gato",
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Mujer_con_gato_de_Amelia_Weiss.png",
+                    "url": "https://es.wikipedia.org/wiki/Amelia_Weiss#/media/Archivo:Mujer_con_gato_de_Amelia_Weiss.png"
+                },
+                {
+                    "title": "El Curioso",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.6435-9/118895353_3745221142180689_2208336901298899762_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=810d5f&_nc_eui2=AeFaPl5mnWCeYiy-NdkM4wo7tEB8vMwkGqq0QHy8zCQaquu2wuqAZJL5UwHyva2MXv6C8Z_GrDm3tgrYS0j58Q8H&_nc_ohc=ueKP_kU1Ik0AX8VsGaq&_nc_ht=scontent.flim38-1.fna&oh=00_AfBLEPvMj895hgGiY2RPWo_52K39Nr3erBr2nabl-KcUew&oe=6606DFB9",
+                    "url": "https://www.facebook.com/lagaleriaperu/photos/a.2039837746052379/3745221138847356/?type=3"
+                },
+                {
+                    "title": "Torso femenino negro",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.6435-9/119005560_3745200662182737_7922263228440287664_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=810d5f&_nc_eui2=AeFL0se0jS1GayiApQ0hfclN0YgNEP4nHtXRiA0Q_ice1UmTQI--8r6RyAs3V6uY8q-ORsgitXOBNn0EKuL4QJEH&_nc_ohc=aqwElQ71RjgAX95Rsw1&_nc_ht=scontent.flim38-1.fna&oh=00_AfApQz0Bq_UxCb5tDhMMgp2PFnoUaE1oFyGUzMEFe8vSng&oe=6606DFD1",
+                    "url": "https://www.facebook.com/photo/?fbid=3745200658849404&set=a.2039837746052379"
+                },
+                {
+                    "title": "Torso",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.6435-9/118960452_3745228468846623_2087927825112536714_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=810d5f&_nc_eui2=AeFu7lA6ZVOa7MdbyB2P3JZ2lAtpNFIiGnyUC2k0UiIafGI5NP9hQ-tdud_MKyoKmy8RPdhVoX3bBzgx4DmeLobk&_nc_ohc=BRrOla7mjGoAX_HuSZZ&_nc_ht=scontent.flim38-1.fna&oh=00_AfB-ey0_F18GflLx2_1pj3FYfBp6BFFGw97XO4gGKuannQ&oe=6606EB9F",
+                    "url": "https://www.facebook.com/photo/?fbid=3745228462179957&set=a.2039837746052379"
+                },
+                {
+                    "title": "Mujer sentada",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t1.6435-9/96529809_3386345198068287_800502322525372416_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=810d5f&_nc_eui2=AeHpBic0nfnGUR36yareWJ_lEC_EP2uOrBgQL8Q_a46sGCkfMdLEckI184W8Ro6xUXjdSBRmSJ-hBOqRs-CpKlFL&_nc_ohc=gPbkWyJe5DgAX-swXBi&_nc_ht=scontent.flim38-1.fna&oh=00_AfDC3oPVgc1KPGA8pTXjftzDGtsE3424XtNwdt2xvIdgfQ&oe=66070646",
+                    "url": "https://www.facebook.com/photo?fbid=3386345191401621&set=pcb.3386345274734946"
+                }
+            ]
+        },
+        "jorge": {
+            "name": "Jorge Luis Tenazoa Torrejón",
+            "biography": "Jorge Luis Tenazoa Torrejón nació el 7 de marzo de 1981 en el departamento de San Martín, distrito de Tarapoto. Es un diseñador de folletos, afiches y dibujos artísticos. Realizó muchos trabajos en instituciones publicas, privadas y organizaciones de la región San Martín. Estudió \"Operador de microcomputadoras\" en SENATI con inicio en año 1998. También estudio de la Escuela autonóma de Bellas Artes desde 1999 al 2004 Lima-Perú. Realizó muchas exposiciones colectivas, en las que resaltan: La exposición por el segundo encuentro mundial de artistas en Iquitos en el 2002; I Festival de arte popular - Aniversario Tarapoto - Real Grill y el Encuentro de artistas, Sala el Cultural Tarapoto. Incluso, fue participe en el pintado de murales CIMA, Cordillera Azul - Laguna del Mundo Perdido, en Tarapoto.",
+            "image": "https://www.cayomecenas.net/I207/Imagen%20020.jpg",
+            "works": [
+                {
+                    "title": "Flor de primavera",
+                    "image": "https://www.cayomecenas.net/I207/flor%20de%20primavera%20%20%20(1[1].30%20m%20x%2090%20cm).jpg",
+                    "url": "https://www.cayomecenas.net/mecenas3138A.htm"
+                },
+                {
+                    "title": "Letargo de Tucanes",
+                    "image": "https://www.cayomecenas.net/I207/letargo%20de%20tucanes.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas3138B.htm"
+                },
+                {
+                    "title": "Nativa Lamista",
+                    "image": "https://www.cayomecenas.net/I207/nativa%20lamista.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas3138D.htm"
+                },
+                {
+                    "title": "Metamorfosis",
+                    "image": "https://www.cayomecenas.net/I207/metamorfosis.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas3138C.htm"
+                }
+            ]
+        },
+        "jose": {
+            "name": "José Asunción Arteaga Jiménez",
+            "biography": "José Asunción Arteaga Jiménez nació en 1984 en un pequeño poblado de la selva peruana en el departamento de San Martín provincia de Lamas. Desde temprana edad se interesó por el arte, especialmente por la pintura, se formó de manera autodidacta recogiendo las experiencias y los consejos de artistas profesionales. A sus 15 años, luego de incesante trabajo sus obras comenzaron a comercializarse, fue premiado, reconocido y exponente artístico por invitación junto a grandes artistas plásticos. Con su espíritu analítico ha trabajado en encontrar la manera más adecuada para expresar sus emociones y encaminar sus menajes. Para él, la abstracción y los géneros modernos de la pintura que buscan innovaciones para salir de lo común no hacen más que rotar y combinar lo mismo. Hoy, con su corta pero interesante experiencia trabaja en temas que combinan la belleza de los bosques amazónicos con el aspecto místico que envuelve en su naturaleza.",
+            "image": "https://www.cayomecenas.net/I1205/FOTOGRAFIA.jpg",
+            "works": [
+                {
+                    "title": "Guardian del bosque",
+                    "image": "https://www.cayomecenas.net/I1205/GUARDIAN_DEL_BOSQUE.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas2680A.htm"
+                },
+                {
+                    "title": "Ninfas arboreas",
+                    "image": "https://www.cayomecenas.net/I1205/NINFAS_ARBOREAS.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas2680B.htm"
+                },
+                {
+                    "title": "Suplicio",
+                    "image": "https://www.cayomecenas.net/I1205/SUPLICIO.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas2680D.htm"
+                },
+                {
+                    "title": "Vigia",
+                    "image": "https://www.cayomecenas.net/I1205/VIGIA.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas2680E.htm"
+                }
+            ]
+        },
+        "juan": {
+            "name": "Juan Echenique",
+            "biography": "Juan Echenique nació en Lamas, San Martín, Perú,  en el año 1967. Estudió en la Escuela Nacional de Bellas Artes. Tiene mención honrosa del Salón Regional de Iquitos, Primera Bienal Nacional de Lima, (1989 - 1994). Posee varias menciones honorables a lo largo de su carrera, asi mismo cuenta con muchas exposiciones en tanto en el Perú como en el extranjero. Enchenique viene presentando un trabajo expresionista en cuanto al empleo del color, con una paleta de colores copuesta predominantemente de tonos frios y otras más vibrantes en colores asociados al grafiti. Crómaticamente hablando, su trabajo está lleno de contrastes y trazos fuertes que se complemetan creando un equilibrio, pero siempre en dos dimensiones: la línea del dibujo y los planos. Su inspiración esta basada principalmente en tendencias de principios del siglo XX, lo que mas resalta de sus obras es como llega a contextualizar las tendencias con la amazonia. A diferencia de otros artistas, Enchenique rescata la belleza que aun persistente en la naturaleza de la amazonia y del ser humano en diversos aspectos: rural, urbano y cotidiano.",
+            "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/411687369_10230088248463510_3758791501579208174_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeGzY1GTha0w97kbULpOY0kTT1PGyaskNYhPU8bJqyQ1iHCm4MD7_5lGZGDPUWOiVMBCXVOamMPVljwWMtzbEuZa&_nc_ohc=CfAtGheBeNQAX9vXnK6&_nc_ht=scontent.flim38-1.fna&oh=00_AfC1BkDgIGfC_EFGVRN6R_RcHwgoBT-W3fvaH1ZSp6-ROw&oe=65E3C4B1",
+            "works": [
+                {
+                    "title": "Acordeonista",
+                    "image": "https://www.cayomecenas.net/I010/acordionista.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas781A.htm"
+                },
+                {
+                    "title": "Pez sombrero",
+                    "image": "https://www.cayomecenas.net/I010/pezsombrero.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas781C.htm"
+                },
+                {
+                    "title": "Trapoto",
+                    "image": "https://www.cayomecenas.net/I010/tarapoto.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas781D.htm"
+                },
+                {
+                    "title": "Violinista y virgen",
+                    "image": "https://www.cayomecenas.net/I010/violinistayvirgen.jpg",
+                    "url": "https://www.cayomecenas.net/mecenas781E.htm"
+                },
+                {
+                    "title": "Mujerbuldy",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/415425878_10230127411122552_3019906824819742300_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=c42490&_nc_eui2=AeEWLigd_vTc6Vm-w04qOxJC6FsBzyV-1EjoWwHPJX7USNuvae95D1CMd71i6AkCYRWgHSGTRYeHu2oH9yqAmKyj&_nc_ohc=-s7Iy_duPEoAX-7R1q9&_nc_ht=scontent.flim38-1.fna&oh=00_AfAy2S77omXPjt24sHLPITDHPApqEjbfWWEQ1Rm4hn8twQ&oe=65E502D4",
+                    "url": "https://www.facebook.com/photo/?fbid=10230127407602464&set=gm.7103999289638140&idorvanity=2961971423840968"
+                }
+            ]
+        },
+        "yolanda": {
+            "name": "Yolanda Razzeto Ruiz",
+            "biography": "Nació el 9 de setiembre de 1948 en San Martin. Estudió diseño artístico y decoración en la Pontíficia Universidad Católica del Perú. Sus pinturas se basan en su entorno tanto familiar como cotidiano. Ha realizado exposiciones dentro del país (en la embajada de Estados Unidos) y fuera de la misma, así como son Canadá y Estados Unidos. Yolanda participó en la fiesta de color en Moyobamba, para lo cual se preparó en el taller de arte que posee en Tarapoto, San Martín, Perú. Donde, se preparó arduamente para la exposición pictórica a realizarse, en este lugar preparó 24 cuadros como un homenaje a Moyobamba y sus fiestas, además de un llamado de alerta para proteger la selva. Yolanda busca resaltar la imagen del departamento de San Martín en su belleza total, fragancias, colores y toda su gente. Para ello realizó la exposición \"Magia de la selva\", la cual cuenta con 28 obras, en todas ellas predomina el impresionismo.",
+            "image": "https://pbs.twimg.com/profile_images/441047319799005184/nEc0Uf1v_400x400.jpeg",
+            "works": [
+                {
+                    "title": "Bosque de Situllis",
+                    "image": "https://live.staticflickr.com/3437/3969686973_8b829de147_z.jpg",
+                    "url": "https://www.flickr.com/photos/hgcharing/3969686973/in/album-72157622366131421/"
+                },
+                {
+                    "title": "El regreso",
+                    "image": "https://live.staticflickr.com/3049/3969676309_7c3d14c955_z.jpg",
+                    "url": "https://www.flickr.com/photos/hgcharing/3969676309/in/album-72157622366131421/"
+                },
+                {
+                    "title": "Loros en Paraíso",
+                    "image": "https://live.staticflickr.com/3421/3969669437_ebd5d4b00c_z.jpg",
+                    "url": "https://www.flickr.com/photos/hgcharing/3969669437/in/album-72157622366131421/"
+                }
+            ]
+        },
+        "watsildi": {
+            "name": "Watsildi López Cachique",
+            "biography": "Nació en San Martin en el año 1985. Desde muy pequeño le gustaba el arte y en el colegio representaba en los concursos de pintura. Sus padres al ver el talento de su hijo lo apoyaron y le contrataron un profesor particular. A los 15 años conoció a maestros de artes plasticas sanmartinenses, los cuales fueron su mayor inspiración y motivación. A los 28 años se involucró con las enseñanza de niños y jovenes ya que tambien es licenciado en educación secundaria con la especialidad de artes plásticas. Watsilde se puede considerar un artista explorador e innovador, ya que para gran parte de su obra trata de darle utilidad a los materiales reciclados, por ejemplo cartones para usarlo como lienzo. Hoy en dia tiene mas de 800 cuadros distribuidos por todo el mundo y tiene como convicción de que a través del arte se puede mostrar la realidad de la Amazonia peruana. Sus temáticas han tenido que ver con los recursos naturales, agua, aire, naturaleza y la cosmovision propia del hombre Amazónico. En el 2023 fué parte de la exposición \"Equilibrio Amazónico\", en el centro cultural Moyobamba.",
+            "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/358139002_6749296525156439_3770289682990567204_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeFriBHtsH-iidQ1eLx6eOyzJpt1_M1Go3Ymm3X8zUajdmbQJV5ShSHJbeuJgS7uQ1yx-5QRY-gA7HkAD10T_Rd9&_nc_ohc=RCZvnVs5V-gAX9Y_Dj0&_nc_ht=scontent.flim38-1.fna&oh=00_AfA37AC5mvUNfVTECc_EA6bRa8caWdrHwCOuXr36LR-Olw&oe=65E46E07",
+            "works": [
+                {
+                    "title": "Manos de picaflor",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/424672485_7504490506303700_3743010684127033989_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeE4Sz4nKJzbJNaGNRuNDFPm9DH5IvgYYHn0Mfki-BhgeUsIcDY4heU1XQQMVwtBJQn1CfKIrA8Y10l6-O2e-sa5&_nc_ohc=698hFSdqRiYAX_WYdSL&_nc_oc=AQlCaw1E3j4I_XEcPQf-JmYYCpvPAR_D63XGnDTKvlj-jeApfBUZ2zENXL-hp4y3L6c&_nc_ht=scontent.flim38-1.fna&oh=00_AfAZAqfQEC1pi_OTHaIBGuvbLxorZo89Huh8J8se03PVUw&oe=65E4C975",
+                    "url": "https://www.facebook.com/photo/?fbid=7504490046303746&set=a.961058520646964"
+                },
+                {
+                    "title": "Efecto mariposa",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/331330040_720240539775340_9185493859186093993_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeG3Wt1K4XZAjVV6DgOta7P8ILKWGrUoyF0gspYatSjIXYPhbYr4OGqkI0mTWeax-KI1QC9eLuclPIBgZ3kCHgHf&_nc_ohc=fm6eHyfPHM8AX856-Bo&_nc_ht=scontent.flim38-1.fna&oh=00_AfAAXIbSRLUfE-uCaDIsLTGqKCufncq0uFlKydljOPxt9w&oe=65E47350",
+                    "url": "https://www.facebook.com/photo.php?fbid=6294871373932292&set=pb.100002284746820.-2207520000&type=3"
+                },
+                {
+                    "title": "Luna",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/362590677_6794823553937069_3722194480342617281_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeFoh6NJTu4OVw8em_Z1IAQXi_BbkINzzgyL8FuQg3PODNeCKyJKvDe8xOxQ_jHZ4QwSS67SkjabCSxpQTL_w-Cc&_nc_ohc=Eao9oASdKr4AX9tm8Dz&_nc_ht=scontent.flim38-1.fna&oh=00_AfAWYI31Ij7ORfCb0AumurGWsxvX8kCT4anAgVFpOGcVJA&oe=65E42F3F",
+                    "url": "https://www.facebook.com/photo/?fbid=6794823570603734&set=a.118880524864772"
+                },
+                {
+                    "title": "Awajún",
+                    "image": "https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/352705459_6654596654626427_8863453485550369693_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=dd5e9f&_nc_eui2=AeG7zE6v56DdhtDgvLe14biZ3pame0T4dZrelqZ7RPh1mrMk6G8RGZp-xJ-_LRmYr21Sf3xZ5Fm3QXQof2qiwNTT&_nc_ohc=2-J2H7a5iU8AX89jk7q&_nc_ht=scontent.flim38-1.fna&oh=00_AfClVLLdeDW9jZAio8-NPOmOY7sUf3dujtPNNeHKIZY26g&oe=65E4C32A",
+                    "url": "https://www.facebook.com/photo.php?fbid=6654596251293134&set=pb.100002284746820.-2207520000&type=3"
+                }
+            ]
+        }
+    },
+    "madre-de-dios": {
+        "yesica": {
+            "name": "Yesica Patiachi Tayori",
+            "biography": "Yésica Patiachi Tayori nació en la comunidad San José de Karené y pasó su infancia en Puerto Luz, en la región de Puerto Maldonado, Perú. Desde muy joven, se destacó por su compromiso con la preservación de la cultura y el reconocimiento de los pueblos indígenas. Su vida profesional se ha centrado en la docencia, donde actualmente enseña en la Institución Educativa Santa Rosa de Puerto Maldonado.\nSu participación en eventos significativos, como el discurso que pronunció en representación de los pueblos indígenas durante la visita del Papa Francisco a Puerto Maldonado en enero de 2018, la ha convertido en una figura destacada a nivel nacional e internacional. Yésica Patiachi es una defensora apasionada de la literatura y la pintura, a través de las cuales busca preservar la tradición oral de sus ancestros y honrar su legado en cada oportunidad que tiene. Su nombramiento como vicepresidenta de la Red Eclesial Panamazónica (REPAM) en 2022 marca un hito significativo en su carrera, siendo la primera líder indígena del pueblo Harakbut en ocupar ese cargo. Su liderazgo y dedicación han sido fundamentales en la lucha por los derechos y la dignidad de su pueblo, dejando un legado inspirador en la defensa de las comunidades indígenas en la región amazónica.",
+            "image": "https://www.caaap.org.pe/wp-content/uploads/2021/03/Yesica_Patiachi-980x551.jpg",
+            "works": [
+                {
+                    "title": "Arakbut ettonë ihei do, Soy mujer arakbut",
+                    "image": "https://soloparaviajeros.pe/wp-content/uploads/2018/01/2.jpg",
+                    "url": "https://soloparaviajeros.pe/wp-content/uploads/2018/01/2.jpg"
+                },
+                {
+                    "title": "Anamei, fruto del árbol de la vida",
+                    "image": "https://www.religiondigital.org/2020/01/04/Yesica_Patiachi-_Foto_GOREMAD.jpg?hash=85b472fcaa29b11b96d5529579aaf6db29546ec8",
+                    "url": "https://www.religiondigital.org/2020/01/04/Yesica_Patiachi-_Foto_GOREMAD.jpg?hash=85b472fcaa29b11b96d5529579aaf6db29546ec8"
+                },
+                {
+                    "title": "",
+                    "image": "https://efeminista.com/wp-content/uploads/2021/10/artista-peruana-e1634206917134.jpg",
+                    "url": "https://efeminista.com/wp-content/uploads/2021/10/artista-peruana-e1634206917134.jpg"
+                },
+                {
+                    "title": "Anamei, árbol de la vida",
+                    "image": "/mdd-1.png",
+                    "url": ""
+                }
+            ]
+        },
+        "luis": {
+            "name": "Luis Tayori Kendero",
+            "biography": "Luis Miguel Tayori Kendero es un líder destacado del pueblo Harakbut en Madre de Dios. En enero de 2018, durante la visita del Papa Francisco a Puerto Maldonado, junto con Yésica Patiachi Tayori, expresó las injusticias sufridas por los pueblos originarios y reconocieron en el Papa la figura del Apaktone José Álvarez Fernández. Tayori enfatiza la importancia de la defensa de los territorios indígenas y valora el papel de los misioneros dominicos en la educación y formación de valores dentro de las comunidades indígenas. Considera que el Sínodo es una oportunidad para visibilizar la problemática de la Amazonía y los pueblos indígenas, buscando integrar la cosmovisión indígena en la comprensión colectiva de la vida y la relación con la naturaleza. Su trabajo incansable refleja su compromiso con la preservación cultural y la justicia para los pueblos indígenas de la Amazonía.",
+            "image": "https://www.religiondigital.org/2019/06/15/image-2019-06-15.jpg?hash=9400c886c6029194f20b12fe7fb0aa77439075ae",
+            "works": [
+                {
+                    "title": "E'bapih'kae / La Líneas infinitas arakbut 1",
+                    "image": "https://www.ccincagarcilaso.gob.pe/wp-content/uploads/2023/09/CUADRO-19.png",
+                    "url": "https://www.ccincagarcilaso.gob.pe/wp-content/uploads/2023/09/CUADRO-19.png"
+                },
+                {
+                    "title": "E'bapih'kae / La Líneas infinitas arakbut 3",
+                    "image": "https://www.ccincagarcilaso.gob.pe/wp-content/uploads/2023/09/CUADRO-22.png",
+                    "url": "https://www.ccincagarcilaso.gob.pe/wp-content/uploads/2023/09/CUADRO-22.png"
+                },
+                {
+                    "title": "3. E'bapih'kae / La Líneas infinitas arakbut 4",
+                    "image": "/mdd-2.png",
+                    "url": ""
+                },
+                {
+                    "title": "E'bapih'kae / La Líneas infinitas arakbut 2",
+                    "image": "/mdd-3.png",
+                    "url": ""
+                }
+            ]
+        },
+        "wili": {
+            "name": "Wili Corisepa",
+            "biography": "Wili Corisepa pertenece al pueblo harakbut, cuya historia está marcada por una resistencia tenaz contra la opresión y la explotación. En el pasado, los harakbut demostraron una formidable fortaleza y espíritu guerrero, enfrentándose a las incursiones incas, la devastación de los caucheros y las invasiones mineras. A pesar de los desafíos históricos y contemporáneos, Wili se destaca como un defensor apasionado de la cultura harakbut y de la Amazonía en su conjunto. Su arte refleja la lucha constante por la preservación de la tierra y el modo de vida de su pueblo. A través de su activismo y creatividad, busca generar conciencia sobre la importancia de proteger la biodiversidad y los derechos de las comunidades indígenas en la región amazónica. Wili Corisepa personifica el espíritu de resistencia y resiliencia de su pueblo, inspirando a otros a unirse en la defensa de la Amazonía y sus habitantes.",
+            "image": "https://i0.wp.com/www.actualidadambiental.pe/wp-content/uploads/2018/01/8.-Wili_Corisepa_2_A.jpg",
+            "works": [
+                {
+                    "title": "ÁRBOL DE WANAMEI – COLECCIÓN",
+                    "image": "https://cala.lamula.pe/media/uploads/c874bdff-88f4-4a79-a0d5-aea261d2173b.jpg",
+                    "url": "https://cala.lamula.pe/media/uploads/c874bdff-88f4-4a79-a0d5-aea261d2173b.jpg"
+                },
+                {
+                    "title": "ÁRBOL DE WANAMEI – COLECCIÓN",
+                    "image": "https://cala.lamula.pe/media/uploads/934b18f2-0040-48e2-a7df-4d7812c8f703.jpg",
+                    "url": "https://cala.lamula.pe/media/uploads/934b18f2-0040-48e2-a7df-4d7812c8f703.jpg"
+                }
+            ]
+        },
+        "huber": {
+            "name": "Huber Tayori Takori",
+            "biography": "Huber Tayori Takori, nacido en el entorno culturalmente rico y diverso del departamento de Madre de Dios, Perú, se destaca como un prominente artista y defensor de la cultura indígena, especialmente de su pueblo, los Arakbut. Desde temprana edad, Takori mostró un profundo interés por las tradiciones y la historia de su comunidad, siendo influenciado por las narrativas y la sabiduría transmitida por sus ancestros.\nSu trayectoria artística comenzó a desarrollarse en el seno de su comunidad, donde aprendió las técnicas y expresiones propias de la cultura Arakbut. Con el tiempo, su pasión por el arte y su compromiso con la preservación de la identidad cultural lo llevaron a involucrarse activamente en el grupo artístico Etochime, donde encontró un espacio para canalizar su creatividad y promover la valoración de las tradiciones indígenas.\nA lo largo de su carrera, Takori ha participado en numerosas exposiciones y proyectos artísticos que destacan la importancia de los bosques, la lengua y los saberes tradicionales de los Arakbut. Su obra no solo refleja la belleza natural y la espiritualidad de la Amazonía, sino que también constituye un llamado a la acción en defensa del territorio indígena y la protección de los derechos de las comunidades originarias.\nAdemás de su labor artística, Takori se ha involucrado en actividades de sensibilización y educación, buscando generar conciencia sobre la importancia de la diversidad cultural y el respeto a los pueblos indígenas. Su compromiso con la causa indígena lo ha convertido en una figura respetada y admirada dentro y fuera de su comunidad, inspirando a otros artistas y activistas a seguir su ejemplo en la lucha por la justicia social y ambiental en la Amazonía peruana y más allá.",
+            "image": "https://scontent.flim41-1.fna.fbcdn.net/v/t39.30808-6/380815478_330562022765155_8758930241518032451_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9c7eae&_nc_eui2=AeG3vkApqn6asYmSI5PNsftNQLKHpvYjexBAsoem9iN7ENs-iKpRUoOofz20Cc7gC_sp0nhSvx8d-RJECeJ8p-Z7&_nc_ohc=VkD8Eo6jy1sAX_Jb-zq&_nc_ht=scontent.flim41-1.fna&oh=00_AfBsNFU7pAV7xl20VHlUk2paeN028LE4t7Bxl34t_of5aA&oe=65E27457",
+            "works": [
+                {
+                    "title": "O'po chamán arakbut / El gran líder arakbut Pablo Tayori o Pablo Yorike",
+                    "image": "/mdd-4.png",
+                    "url": ""
+                },
+                {
+                    "title": "O'po chamán arakbut / El gran líder arakbut Pablo Tayori o Pablo Yorike",
+                    "image": "https://i.ytimg.com/vi/MS-7NP99otw/maxresdefault.jpg",
+                    "url": "https://i.ytimg.com/vi/MS-7NP99otw/maxresdefault.jpg"
+                }
+            ]
+        },
+        "percy": {
+            "name": "Percy Tayori Kendero",
+            "biography": "Percy Tayori Kendero nació en la región de Madre de Dios, en la Amazonía peruana, aunque no se especifica su fecha de nacimiento. Estudió en un internado donde adquirió conocimientos de castellano y matemáticas, pero también se le inculcó la importancia de no olvidar sus raíces y conservar su identidad cultural. Junto con otros miembros del grupo Etochime, ha presentado la exposición \"Los Harakbut, semillas de anämei\" en el centro cultural Inca Garcilaso de la Cancillería, en el Centro de Lima. A través de su arte, Percy y su grupo alzan su voz en nombre de los bosques, la lengua y los saberes ancestrales de su comunidad, buscando sensibilizar sobre la importancia de proteger la Amazonía y las comunidades indígenas. Su compromiso con la cultura Harakbut sugiere una profunda conexión con su herencia cultural y un fuerte impulso por preservarla y promoverla a través de su arte.",
+            "image": "https://th.bing.com/th/id/OIP.7a3Ha7FK4q-GGpNINp0tYAHaFr?rs=1&pid=ImgDetMain",
+            "works": [
+                {
+                    "title": "E'bapih'kae / Las líneas infinitas arakbut",
+                    "image": "https://th.bing.com/th/id/OIP.7a3Ha7FK4q-GGpNINp0tYAHaFr?rs=1&pid=ImgDetMain",
+                    "url": "https://th.bing.com/th/id/OIP.7a3Ha7FK4q-GGpNINp0tYAHaFr?rs=1&pid=ImgDetMain"
+                },
+                {
+                    "title": "Iconografía arakbut",
+                    "image": "https://cdn.www.gob.pe/uploads/document/file/5128831/standard_%20arakbut%2C%20semillas%20de%20An%C3%A4mei%20.png",
+                    "url": "https://cdn.www.gob.pe/uploads/document/file/5128831/standard_%20arakbut%2C%20semillas%20de%20An%C3%A4mei%20.png"
+                },
+                {
+                    "title": "Shuwit / picaflor",
+                    "image": "/mdd-6.png",
+                    "url": ""
+                },
+                {
+                    "title": "Machüe arakbut",
+                    "image": "/mdd-7.png",
+                    "url": ""
+                }
+            ]
+        }
+    },
+    "amazonas": {
+        "gerardo": {
+            "name": "Gerardo Petsaín Sharup",
+            "biography": "Gerardo Petsaín Sharup nació en el año 1978 en Santa María de Nieva, una localidad en la región de Amazonas, Perú. A lo largo de su vida, Petsaín ha contribuido significativamente al mundo del arte, especialmente a través de sus obras que exploran la cosmovisión y las narraciones ancestrales de los pueblos awajún y wampís. Ha sido parte de exposiciones organizadas por el Departamento de Arquitectura y el Proyecto Transversal PUCP-ARES, donde cautivó con sus ilustraciones sobre el mundo mítico y las narraciones ancestrales de los pueblos indígenas. Sus obras representan la riqueza cultural y espiritual de los awajún y wampís, dejando una marca profunda en el panorama artístico y cultural de la región amazónica del Perú.",
+            "image": "/petsain.png  ",
+            "works": [
+                {
+                    "title": "La trasformación",
+                    "image": "https://assets-global.website-files.com/5ffbad516988fca9eba40601/6571e767b396da8e2804a8bf_IMG_1755-p-1600.jpg",
+                    "url": "https://assets-global.website-files.com/5ffbad516988fca9eba40601/6571e767b396da8e2804a8bf_IMG_1755-p-1600.jpg"
+                },
+                {
+                    "title": "Cosmovisión Wampís",
+                    "image": "https://earthrights.org/wp-content/uploads/blog_graphics_geopark04-430x600.jpg",
+                    "url": "https://earthrights.org/wp-content/uploads/blog_graphics_geopark04-430x600.jpg"
+                },
+                {
+                    "title": "El origen de la alfarería",
+                    "image": "https://lamula.pe/media/uploads/5c4d75b3-ba5e-4d7a-9e1e-a0a042f4e047.jpg",
+                    "url": "https://lamula.pe/media/uploads/5c4d75b3-ba5e-4d7a-9e1e-a0a042f4e047.jpg"
+                },
+                {
+                    "title": "Las 2 estrellas",
+                    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisAmtuReDGZ3MU3WtXKdaUZsT9dELepA1LcODsu31wSbk1ToEZ7DDUiEV0QF_0tnR2DkTPgFMv7X5TmbEsiDzslUt59PvuXHFKSblgEWtxLN0Kl-PxFWSyQGT7KC7_8lgiReB3uHjabFe2/s320/Dibujos-de-Gerardo-Petsain-Sharup-1.JPG",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisAmtuReDGZ3MU3WtXKdaUZsT9dELepA1LcODsu31wSbk1ToEZ7DDUiEV0QF_0tnR2DkTPgFMv7X5TmbEsiDzslUt59PvuXHFKSblgEWtxLN0Kl-PxFWSyQGT7KC7_8lgiReB3uHjabFe2/s320/Dibujos-de-Gerardo-Petsain-Sharup-1.JPG"
                 }
             ]
         }

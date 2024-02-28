@@ -51,8 +51,8 @@ function popUp(_work: { title: string; image: string; url: string; show?: boolea
   </div>
 
   <h2 class="font-bold">Sus obras artísticas</h2>
-  <div class="bg-black opacity-90 w-full h-full bottom-0 left-0 absolute z-50 items-center flex flex-col justify-center" v-if="showPopUp" @click="()=>{showPopUp = false;}">
-    <img :src="work.image" :alt="work.image" class=" h-3/4">
+  <div class="bg-black opacity-95 w-full h-full bottom-0 left-0 absolute z-50 items-center flex flex-col justify-center" v-if="showPopUp" @click="()=>{showPopUp = false;}">
+    <img :src="work.image" :alt="work.image" class=" h-3/4 opacity-100">
     <h3 class="text-center font-semibold text-xl py-2">{{ work.title }}</h3>
     <p>
       Extraido de <a :href="work.url" target="_blank" rel="noopener noreferrer">{{ work.url }}</a>
