@@ -55,7 +55,7 @@ function popUp(_work: { title: string; image: string; url: string; show?: boolea
     <img :src="work.image" :alt="work.image" class=" h-3/4 opacity-100">
     <h3 class="text-center font-semibold text-xl py-2">{{ work.title }}</h3>
     <p>
-      Extraido de <a :href="work.url" target="_blank" rel="noopener noreferrer">{{ work.url }}</a>
+      Extraído de <a :href="work.url" target="_blank" rel="noopener noreferrer">{{ work.url }}</a>
     </p>
   </div>
   <div class="carousel">
