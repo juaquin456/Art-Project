@@ -42,7 +42,7 @@
                 </p>
             </div>
             <div class=" w-60 h-80 flex flex-col items-center content-center">
-                <img src="/jhostyn.jpg" alt="" style="border-radius: 10px;">
+                <img src="/jhostyn.jpeg" alt="" style="border-radius: 10px; max-height: 250px;">
                 <p>
                     Jhsotyn Anderson Malca Tocto 
                 </p>
